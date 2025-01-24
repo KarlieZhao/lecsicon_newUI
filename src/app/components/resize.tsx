@@ -1,4 +1,6 @@
+"use client"
 import { useState, useEffect } from 'react';
+
 export const useWindowWidth = (): number => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 

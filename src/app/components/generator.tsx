@@ -1,4 +1,4 @@
-
+"use client"
 import { RiTa } from "rita";
 import { useState, ChangeEvent, useEffect } from "react";
 import { meetRules } from "./processResponse";

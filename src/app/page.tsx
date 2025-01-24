@@ -1,7 +1,6 @@
 "use client"
 import { useRef, useEffect, useState } from 'react'
 import banner from '../../public/banner.png'
-import { useWindowHeight } from './components/resize'
 import './globals.css'
 import GeneratorSection from './components/generator'
 import WordDisplay from './components/wordDisplay'
@@ -11,37 +10,43 @@ export default function Home() {
   const bannerRef = useRef<HTMLImageElement>(null);
   const collectionRef = useRef<HTMLDivElement>(null);
   const [bannerHeight, setBannerHeight] = useState(500);
-  const windowHeight = useWindowHeight();
+  const [windowHeight, setWindowHeight] = useState(0);
   const [maxHeight, setMaxHeight] = useState(windowHeight - bannerHeight - 25);
   const [logoHover, setLogoHover] = useState(false);
   const [readMore, setReadMore] = useState("Read More");
 
   useEffect(() => {
-    if (bannerRef.current)
-      setBannerHeight(bannerRef.current.getBoundingClientRect().height);
+
+    setWindowHeight(window.innerHeight);
+
+    if (bannerRef.current) setBannerHeight(bannerRef.current.getBoundingClientRect().height);
     if (collectionRef.current) {
       const calculatedMaxHeight = windowHeight - bannerHeight - 25;
       setMaxHeight(calculatedMaxHeight);
       // console.log(calculatedMaxHeight)
       collectionRef.current.style.height = `${calculatedMaxHeight}px`
     }
-  }, [bannerHeight, windowHeight])
+  }, [bannerHeight])
 
   const openReadMore = () => {
     setReadMore("Back")
     // Shift the page down
-    window.scrollTo({
-      top: window.innerHeight - 30,
-      behavior: 'smooth',
-    });
+    if (typeof window != 'undefined') {
+      window.scrollTo({
+        top: windowHeight - 30,
+        behavior: 'smooth',
+      });
+    }
   }
   const closeReadMore = () => {
     setReadMore("Read More")
     // Shift the page down
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
+    if (typeof window != 'undefined') {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    }
   }
   const openPromptnCode = () => {
 

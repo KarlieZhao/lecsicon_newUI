@@ -1,3 +1,4 @@
+"use client"
 import { RiTa } from "rita";
 
 export function meetRules(word: string, tokens: string[]): boolean {
