@@ -92,8 +92,8 @@ const WordDisplay: React.FC<WordDisplayProps> = ({ maxHeight = 900 }) => {
 
     const isTypingRef = useRef(false);
     const shouldAddNewEntryRef = useRef(false);
-    const cleanupTimeoutRef = useRef<NodeJS.Timeout>();
-    const typewriterTimeoutRef = useRef<NodeJS.Timeout>();
+    const cleanupTimeoutRef = useRef<NodeJS.Timeout>(null);
+    const typewriterTimeoutRef = useRef<NodeJS.Timeout>(null);
 
     const newEntryDelay: number = 1200;
 
