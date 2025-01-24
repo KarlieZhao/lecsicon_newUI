@@ -262,6 +262,7 @@ button {
 
 .word-input {
   width: 10rem;
+  height: fit-content;
 }
 
 .clear-button {
@@ -401,4 +402,96 @@ button:disabled {
   right: 0;
   margin-inline: auto;
   width: 40vw;
+}
+
+.bottom-text {
+  margin-left: 3rem;
+}
+
+/* mobile  */
+@media only screen and (max-width: 700px) {
+  body {
+    overflow-y: auto;
+    font-size: 0.95rem;
+  }
+
+  .banner {
+    width: 81vw;
+    min-width: 0;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  .collection {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85vw;
+    font-size: 1rem;
+  }
+
+  .gen-bookmark {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 88vw;
+    top: 0;
+    left: 0;
+  }
+
+  .bottom-box {
+    /* visibility: hidden; */
+    position: fixed;
+    width: max-content;
+  }
+
+  .left-box,
+  .right-box {
+    position: fixed;
+    height: 100vh;
+    width: 0.7rem;
+  }
+
+  .about {
+    width: 88vw;
+    position: relative;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+    top: 0
+  }
+
+  .sticky-section {
+    padding: 1rem;
+    padding-top: 1.6rem;
+    height: max-content;
+  }
+
+  .word-input {
+    width: 60vw;
+  }
+
+  button {
+    margin-left: 0;
+    margin-right: 1rem;
+  }
+
+  .generator {
+    margin: 0.8rem
+  }
+
+  .gen-userPrompt {
+    height: 0;
+  }
+
+  .bottom-text {
+    margin-left: 1rem;
+    font-size: 0.65rem;
+    width: 100vw;
+  }
+
+  .read-more {
+    visibility: hidden;
+  }
 }

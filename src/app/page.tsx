@@ -11,17 +11,17 @@ export default function Home() {
   const collectionRef = useRef<HTMLDivElement>(null);
   const [bannerHeight, setBannerHeight] = useState(500);
   const [windowHeight, setWindowHeight] = useState(0);
+  const [windowWidth, setWindowWidth] = useState(0);
   const [maxHeight, setMaxHeight] = useState(windowHeight - bannerHeight - 25);
   const [logoHover, setLogoHover] = useState(false);
   const [readMore, setReadMore] = useState("Read More");
 
   useEffect(() => {
-
     setWindowHeight(window.innerHeight);
-
+    setWindowWidth(window.innerWidth);
     if (bannerRef.current) setBannerHeight(bannerRef.current.getBoundingClientRect().height);
     if (collectionRef.current) {
-      const calculatedMaxHeight = windowHeight - bannerHeight - 25;
+      const calculatedMaxHeight = windowHeight - bannerHeight - 110;
       setMaxHeight(calculatedMaxHeight);
       // console.log(calculatedMaxHeight)
       collectionRef.current.style.height = `${calculatedMaxHeight}px`
@@ -66,12 +66,12 @@ export default function Home() {
 
         <div className='top-box'><span style={{ cursor: "pointer" }}>Lecsicon by ¡wénrán zhào!</span></div>
         <div className='bottom-box'>
-          <div style={{ marginLeft: "3rem" }}>Lecsicon is a growing collection of over 24,000 acrostic lines. </div>
+          <div className='bottom-text'>Lecsicon is a growing collection of over 24,000 acrostic lines. </div>
           <div className='read-more'
             onClick={() => { return readMore === "Back" ? closeReadMore() : openReadMore() }}>{readMore}</div>
         </div>
         <div className='left-box'></div>
-        <div className='right-box' onClick={() => { openPromptnCode() }}><div>Prompt & Code</div></div>
+        <div className='right-box' onClick={() => { openPromptnCode() }}><div className={`${windowWidth < 780 ? "invisible" : "visible"}`}>Prompt & Code</div></div>
       </div >
 
       <div className='collection' ref={collectionRef}>
