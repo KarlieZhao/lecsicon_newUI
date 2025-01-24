@@ -1,1 +1,0 @@
-self.__BUILD_MANIFEST = {"__rewrites":{"afterFiles":[],"beforeFiles":[],"fallback":[]},"/_app":["static/chunks/pages/_app.js"],"/_error":["static/chunks/pages/_error.js"],"/api/openai":["static/chunks/pages/api/openai.js"],"sortedPages":["/_app","/_error","/api/openai"]};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
