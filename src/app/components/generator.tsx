@@ -1,6 +1,6 @@
 "use client"
 import { RiTa } from "rita";
-import { useState, ChangeEvent, useEffect } from "react";
+import { useState, useRef, ChangeEvent, useEffect } from "react";
 import { meetRules } from "./processResponse";
 
 interface TokenizedWordData {
@@ -13,6 +13,7 @@ export default function GeneratorSection() {
     const [DisplayedWords, setDisplayedWords] = useState<TokenizedWordData[]>([]);
     const [userPrompt, setUserPrompt] = useState<string>("");
     const [sendRequstFlag, setSendRequstFlag] = useState(false);
+    const genContainerRef = useRef<HTMLDivElement>(null);
 
     const handleInputChange = (event: ChangeEvent<HTMLInputElement>) => {
         setInputValue(event.target.value);
@@ -30,7 +31,9 @@ export default function GeneratorSection() {
     };
 
     useEffect(() => {
-        if (sendRequstFlag) sendRequest();
+        if (sendRequstFlag) {
+            sendRequest();
+        };
     }, [sendRequstFlag])
 
     const sendRequest = async () => {
@@ -53,6 +56,16 @@ export default function GeneratorSection() {
                         const words = RiTa.tokenize(acrosticSentence);
                         const newEntry = { word: capWord, sentence: words };
                         setDisplayedWords((prevWords) => [...prevWords, newEntry]);
+                        setTimeout(() => {
+                            if (genContainerRef.current) {
+                                genContainerRef.current.scrollTo({
+                                    // scroll to section bottom
+                                    top: genContainerRef.current.scrollHeight, // Scroll to the bottom
+                                    behavior: 'smooth',
+                                });
+                            }
+                        }, 500);
+
                     } else {
                         setUserPrompt("Some error has occurred. Please try again.");
                     }
@@ -67,6 +80,8 @@ export default function GeneratorSection() {
             setUserPrompt('"' + inputValue + '"' + " is not a valid word. Please type a word with no numbers, spaces, or punctuation.");
         }
         setSendRequstFlag(false);
+
+
     }
 
     const renderTokens = (entry: TokenizedWordData, token: string, index: number) => {
@@ -88,8 +103,8 @@ export default function GeneratorSection() {
         )
     }
 
-    return (<div className="gen-bookmark">
-        <div>
+    return (<div className="gen-bookmark" >
+        <div ref={genContainerRef}>
             <section className="sticky-section">
                 <div>
                     <h3>Acrostics Playground <span className="small">Running on GPT o1-mini.</span></h3>
@@ -105,7 +120,8 @@ export default function GeneratorSection() {
                     onClick={() => { setDisplayedWords([]) }}>Clear</button>
                 <div className="gen-userPrompt">{userPrompt}</div>
             </section>
-            <section className="generator">
+
+            <section className="generator" >
                 {DisplayedWords && DisplayedWords.map((entry, index) => {
                     return (
                         <p key={index}
