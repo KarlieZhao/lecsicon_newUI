@@ -39,6 +39,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   height: 197vh;
+  width: 155vw;
   overflow: hidden;
   background-color: #E2E2E2;
   color: #03056A;
@@ -156,6 +157,10 @@ button:focus-visible {
   border-bottom: 2px solid #1E20A5;
   display: flex;
   background-color: #e2e2e2;
+}
+
+.right-box {
+  border-right: 2px solid #1E20A5;
 }
 
 .read-more {
@@ -336,7 +341,6 @@ button:active {
   overflow-y: scroll;
   height: inherit;
   /* height: calc(100vh - 3.6rem); */
-
   margin: 0;
 }
 
@@ -410,11 +414,36 @@ button:disabled {
   margin-left: 3rem;
 }
 
+.prompt-code {
+  position: absolute;
+  left: 100vw;
+  right: 0;
+  top: 0;
+  width: 55vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.prompt {
+  display: block;
+  width: 30vw;
+  min-width: 350px;
+  margin-top: 2rem;
+}
+
+.code {
+  margin-top: 3rem;
+}
+
 /* mobile  */
 @media only screen and (max-width: 700px) {
   body {
     overflow-y: auto;
     font-size: 0.95rem;
+    width: 100vw;
   }
 
   .banner {
@@ -495,5 +524,23 @@ button:disabled {
 
   .read-more {
     visibility: hidden;
+  }
+
+  .prompt-code {
+    position: relative;
+    width: 88vw;
+    left: 0;
+    margin: 1.5rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    margin-bottom: 5rem;
+  }
+
+  .prompt {
+    width: 100%;
+    min-width: 200px;
   }
 }

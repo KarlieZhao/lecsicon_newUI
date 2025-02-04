@@ -24,7 +24,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       model: 'gpt-4o-mini', 
       messages: [
         { role: 'system', content: `I will give you a word. Write a sentence in which the first letter of each word sequentially spells out my word, like an acrostic sentence.
-Your sentence should not contain my word or any of the variations of my word. 
+Your sentence should not contain my word. 
 Your response should only contain the sentence you make.
 Your sentence should have a semantic connection with my word.` },
         { role: 'user', content: genPrompt },

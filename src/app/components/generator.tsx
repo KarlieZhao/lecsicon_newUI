@@ -46,7 +46,7 @@ export default function GeneratorSection() {
                     headers: {
                         'Content-Type': 'application/json',
                     },
-                    body: JSON.stringify({ inputValue }) // Send inputValue to your API route
+                    body: JSON.stringify({ inputValue }) // Send inputValue to API route
                 });
                 const data = await response.json();
                 if (response.ok) {
@@ -107,7 +107,7 @@ export default function GeneratorSection() {
         <div ref={genContainerRef}>
             <section className="sticky-section">
                 <div>
-                    <h3>Acrostics Playground <span className="small">Running on GPT o1-mini.</span></h3>
+                    <h3>Acrostics Playground <span className="small">Running on GPT 4o-mini.</span></h3>
                     <small> Type or click on a word in the section below to generate. </small>
                 </div>
                 <input name="myInput" className="word-input"
