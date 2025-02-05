@@ -57,6 +57,13 @@ h3 {
   line-height: 1.1;
 }
 
+
+h4 {
+  font-size: 1.3em;
+  line-height: 1.1;
+}
+
+
 small {
   font-size: 0.8rem;
   color: #616192;
@@ -399,15 +406,47 @@ button:disabled {
 .about {
   position: absolute;
   display: block;
-  top: 110vh;
-  max-width: 800px;
+  top: 100vh;
   min-width: 300px;
-  left: 18vw;
+  left: 0;
   text-align: left;
   left: 0;
   right: 0;
   margin-inline: auto;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  padding-top: 10vh;
+
+}
+
+.about-content,
+.about-img {
   width: 40vw;
+  height: max-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+}
+
+.about-img {
+  width: 60vw;
+}
+
+.word-tree {
+  overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  filter: drop-shadow(0px 5px 5px #3338);
+  width: 80vw;
+  height: 35vw;
+  min-width: 400px;
+}
+
+.word-tree:active {
+  border: none;
 }
 
 .bottom-text {
@@ -542,5 +581,9 @@ button:disabled {
   .prompt {
     width: 100%;
     min-width: 200px;
+  }
+
+  .word-tree {
+    visibility: hidden;
   }
 }

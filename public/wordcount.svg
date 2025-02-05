@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 925 600" style="enable-background:new 0 0 925 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EAB464;}
+	.st1{fill:#E9B466;}
+	.st2{fill:#E7B569;}
+	.st3{fill:#D6B886;}
+	.st4{fill:#C5BCA2;}
+	.st5{fill:#C1BDA8;}
+	.st6{fill:#C1BDA9;}
+	.st7{fill:#BEBDAD;}
+	.st8{fill:#BCBEB0;}
+	.st9{fill:#B8BFB7;}
+	.st10{fill:#B7BFB8;}
+	.st11{fill:#B7BFB9;}
+	.st12{fill:#B6BFBA;}
+	.st13{fill:#B5BFBC;}
+	.st14{fill:#B4C0BE;}
+	.st15{fill:#B2C0C1;}
+	.st16{fill:#B1C0C2;}
+	.st17{fill:#B0C0C4;}
+	.st18{fill:#B0C1C5;}
+	.st19{fill:#AFC1C6;}
+	.st20{fill:#AEC1C8;}
+	.st21{fill:#ACC1CB;}
+	.st22{fill:#ABC2CC;}
+	.st23{fill:#ABC2CD;}
+	.st24{fill:#AAC2CF;}
+	.st25{fill:#A9C2CF;}
+	.st26{fill:#A9C2D0;}
+	.st27{fill:#A9C2D1;}
+	.st28{fill:#A8C2D1;}
+	.st29{fill:#A8C2D2;}
+	.st30{fill:#A7C2D3;}
+	.st31{fill:#A7C3D4;}
+	.st32{fill:#A6C3D5;}
+	.st33{fill:#A6C3D6;}
+	.st34{fill:#A5C3D6;}
+	.st35{fill:#A5C3D7;}
+	.st36{fill:#A4C3D8;}
+	.st37{fill:#A4C3D9;}
+	.st38{fill:#A3C3DA;}
+	.st39{fill:#A3C3DB;}
+	.st40{fill:#A2C3DB;}
+	.st41{fill:#A2C4DB;}
+	.st42{fill:#A2C4DC;}
+	.st43{fill:#A1C4DD;}
+	.st44{fill:#A1C4DE;}
+	.st45{fill:#A0C4DE;}
+	.st46{fill:#A0C4DF;}
+	.st47{font-family:'Athelas-Regular';}
+	.st48{font-size:20px;}
+	.st49{font-size:10px;}
+	.st50{font-size:16px;}
+	.st51{font-size:13px;}
+	.st52{font-size:12px;}
+	.st53{font-size:8px;}
+	.st54{fill:#A3C3D9;}
+	.st55{fill:#AAC2CE;}
+	.st56{fill:#ACC2CC;}
+	.st57{fill:#ADC1CA;}
+	.st58{fill:#AEC1C7;}
+	.st59{fill:#B1C0C3;}
+	.st60{fill:#B2C0C2;}
+	.st61{fill:#B3C0BF;}
+	.st62{fill:#B4C0BD;}
+	.st63{fill:#B6BFBB;}
+	.st64{fill:#B8BFB8;}
+	.st65{fill:#B8BFB6;}
+	.st66{fill:#B9BFB5;}
+	.st67{fill:#BABEB4;}
+	.st68{fill:#BABEB3;}
+	.st69{fill:#BBBEB2;}
+	.st70{fill:#BCBEB1;}
+	.st71{fill:#BDBEB0;}
+	.st72{fill:#BDBEAE;}
+	.st73{fill:#BEBEAD;}
+	.st74{fill:#BFBDAC;}
+	.st75{fill:#BFBDAB;}
+	.st76{fill:#C0BDAA;}
+	.st77{fill:#C2BDA7;}
+	.st78{fill:#C3BDA5;}
+	.st79{fill:#C3BCA4;}
+	.st80{fill:#C4BCA3;}
+	.st81{fill:#C5BCA1;}
+	.st82{fill:#C6BCA0;}
+	.st83{fill:#C7BC9F;}
+	.st84{fill:#C7BB9E;}
+	.st85{fill:#C8BB9C;}
+	.st86{fill:#C9BB9B;}
+	.st87{fill:#C9BB9A;}
+	.st88{fill:#CABB99;}
+	.st89{fill:#CBBB98;}
+	.st90{fill:#CBBB97;}
+	.st91{fill:#CCBA96;}
+	.st92{fill:#CDBA95;}
+	.st93{fill:#CDBA93;}
+	.st94{fill:#CEBA92;}
+	.st95{fill:#CFBA91;}
+	.st96{fill:#D0BA90;}
+	.st97{fill:#D0BA8F;}
+	.st98{fill:#D1B98E;}
+	.st99{fill:#D2B98D;}
+	.st100{fill:#D2B98B;}
+	.st101{fill:#D3B98A;}
+	.st102{fill:#D4B989;}
+	.st103{fill:#D4B988;}
+	.st104{fill:#D5B987;}
+	.st105{fill:#D6B885;}
+	.st106{fill:#D7B884;}
+	.st107{fill:#D8B882;}
+	.st108{fill:#D8B881;}
+	.st109{fill:#D9B880;}
+	.st110{fill:#DAB87F;}
+	.st111{fill:#DAB77E;}
+	.st112{fill:#DBB77D;}
+	.st113{fill:#DCB77C;}
+	.st114{fill:#DCB77B;}
+	.st115{fill:#DDB779;}
+	.st116{fill:#DEB778;}
+	.st117{fill:#DEB677;}
+	.st118{fill:#DFB676;}
+	.st119{fill:#E0B675;}
+	.st120{fill:#E0B674;}
+	.st121{fill:#E1B673;}
+	.st122{fill:#E2B672;}
+	.st123{fill:#E3B670;}
+	.st124{fill:#E3B56F;}
+	.st125{fill:#E4B56E;}
+	.st126{fill:#E5B56D;}
+	.st127{fill:#E5B56C;}
+	.st128{fill:#E6B56B;}
+	.st129{fill:#E7B56A;}
+	.st130{fill:#E8B467;}
+	.st131{fill:#E9B465;}
+	.st132{fill:none;}
+</style>
+<g>
+	<g id="in" transform="translate(335.1193812484301,280.9885456062648)">
+		<path id="p_666.3919610230151" class="st0" d="M20,71.3c-28.3,0-51.3-23-51.3-51.3s23-51.3,51.3-51.3l0,0
+			c28.3,0,51.3,23,51.3,51.3S48.3,71.3,20,71.3L20,71.3z"/>
+	</g>
+	<g id="often" transform="translate(439.25527520666145,280.9885456062648)">
+		<path id="p_770.1991322872054" class="st1" d="M20,71c-28.1,0-51-22.8-51-51s22.8-51,51-51S71-8.1,71,20S48.1,71,20,71z"/>
+	</g>
+	<g id="every" transform="translate(387.5136570123158,370.2956721673077)">
+		<path id="p_807.1706367084204" class="st2" d="M20,70.4c-27.8,0-50.4-22.5-50.4-50.4c0-27.8,22.5-50.4,50.4-50.4l0,0
+			c27.8,0,50.4,22.5,50.4,50.4C70.4,47.8,47.8,70.4,20,70.4L20,70.4z"/>
+	</g>
+	<g id="cats" transform="translate(387.4943871490903,198.8246505095343)">
+		<path id="p_629.5758550812827" class="st3" d="M20,64.3c-24.4,0-44.3-19.8-44.3-44.2S-4.5-24.3,20-24.3l0,0
+			c24.4,0,44.3,19.8,44.3,44.2S44.5,64.3,20,64.3L20,64.3z"/>
+	</g>
+	<g id="always" transform="translate(303.8553465686569,195.82588813331338)">
+		<path id="p_536.2206505222139" class="st4" d="M20,57.5c-20.7,0-37.5-16.8-37.5-37.5S-0.7-17.5,20-17.5l0,0
+			c20.7,0,37.5,16.8,37.5,37.5S40.7,57.5,20,57.5L20,57.5z"/>
+	</g>
+	<g id="a" transform="translate(469.45222542220733,197.62399165072287)">
+		<path id="p_701.8894837901562" class="st5" d="M20,55.8c-19.8,0-35.8-16-35.8-35.8S0.2-15.8,20-15.8l0,0c19.8,0,35.8,16,35.8,35.8
+			S39.8,55.8,20,55.8L20,55.8z"/>
+	</g>
+	<g id="new" transform="translate(299.8317757106814,362.627841491703)">
+		<path id="p_697.2182821700375" class="st6" d="M20,55.8c-19.7,0-35.8-16-35.8-35.8c0-19.7,16-35.8,35.8-35.8l0,0
+			c19.7,0,35.8,16,35.8,35.8C55.8,39.7,39.8,55.8,20,55.8L20,55.8z"/>
+	</g>
+	<g id="eagerly" transform="translate(473.89433788909844,361.2791790379499)">
+		<path id="p_868.7656419524408" class="st7" d="M20,54.6C0.9,54.6-14.6,39.1-14.6,20S0.9-14.6,20-14.6l0,0
+			c19.1,0,34.6,15.5,34.6,34.6S39.1,54.6,20,54.6L20,54.6z"/>
+	</g>
+	<g id="under" transform="translate(519.391970588645,248.53609035448798)">
+		<path id="p_800.5345830407717" class="st8" d="M20,53.6c-18.6,0-33.6-15-33.6-33.6S1.4-13.6,20-13.6l0,0c18.6,0,33.6,15,33.6,33.6
+			S38.6,53.6,20,53.6L20,53.6z"/>
+	</g>
+	<g id="rabbits" transform="translate(256.8310423621291,248.86035417300022)">
+		<path id="p_536.1351881425037" class="st9" d="M20,51.4c-17.4,0-31.4-14-31.4-31.4S2.6-11.4,20-11.4l0,0
+			c17.4,0,31.4,14.1,31.4,31.4C51.5,37.4,37.4,51.4,20,51.4L20,51.4z"/>
+	</g>
+	<g id="rarely" transform="translate(523.3615429847118,315.1026101576256)">
+		<path id="p_868.6458565811922" class="st10" d="M20,51.2c-17.2,0-31.2-14-31.2-31.2S2.8-11.2,20-11.2l0,0
+			c17.2,0,31.2,14,31.2,31.2S37.2,51.2,20,51.2L20,51.2z"/>
+	</g>
+	<g id="elephants" transform="translate(252.71556103336084,312.91007171328266)">
+		<path id="p_595.4670932312092" class="st11" d="M20,50.8C3,50.8-10.8,37-10.8,20S3-10.8,20-10.8l0,0C37-10.8,50.8,3,50.8,20
+			S37,50.8,20,50.8L20,50.8z"/>
+	</g>
+	<g id="all" transform="translate(435.07109476251287,138.61220260411227)">
+		<path id="p_603.2702860065647" class="st12" d="M20,50.6C3.1,50.6-10.6,36.9-10.6,20S3.1-10.6,20-10.6S50.6,3.1,50.6,20
+			S36.9,50.6,20,50.6z"/>
+	</g>
+	<g id="never" transform="translate(341.962563163425,137.75774141716607)">
+		<path id="p_508.7398630447837" class="st13" d="M20,50C3.4,50-10,36.6-10,20S3.4-10,20-10l0,0c16.6,0,30,13.4,30,30S36.6,50,20,50
+			L20,50z"/>
+	</g>
+	<g id="and" transform="translate(450.04173346006087,422.442466188773)">
+		<path id="p_900.6453125461682" class="st14" d="M20,49.2C3.9,49.2-9.2,36.1-9.2,20S3.9-9.2,20-9.2S49.2,3.9,49.2,20
+			S36.1,49.2,20,49.2z"/>
+	</g>
+	<g id="many" transform="translate(326.593118862367,422.671766145966)">
+		<path id="p_776.3473502296096" class="st15" d="M20,48.1C4.5,48.1-8.1,35.5-8.1,20S4.5-8.1,20-8.1S48.1,4.5,48.1,20
+			S35.5,48.1,20,48.1z"/>
+	</g>
+	<g id="people" transform="translate(388.49806535100646,100.4204908271723)">
+		<path id="p_515.6650276653918" class="st16" d="M20,47.7C4.7,47.7-7.7,35.3-7.8,20S4.7-7.7,20-7.7l0,0C35.3-7.7,47.7,4.7,47.8,20
+			S35.3,47.7,20,47.7L20,47.7z"/>
+	</g>
+	<g id="the" transform="translate(533.4896234639068,187.5208115179853)">
+		<path id="p_747.1301085845741" class="st17" d="M20,47.1C5,47.1-7.1,35-7.1,20S5-7.1,20-7.1S47.1,5,47.1,20S35,47.1,20,47.1z"/>
+	</g>
+	<g id="enjoy" transform="translate(237.76718326219918,191.85145573932596)">
+		<path id="p_455.39023819549436" class="st18" d="M20,46.8C5.2,46.8-6.8,34.8-6.8,20S5.2-6.8,20-6.8l0,0c14.8,0,26.8,12,26.8,26.8
+			S34.8,46.8,20,46.8L20,46.8z"/>
+	</g>
+	<g id="love" transform="translate(235.99991216007012,369.82536296030565)">
+		<path id="p_631.4064309719886" class="st19" d="M20,46.6C5.3,46.6-6.6,34.7-6.6,20S5.3-6.6,20-6.6l0,0C34.7-6.6,46.6,5.3,46.6,20
+			S34.7,46.6,20,46.6L20,46.6z"/>
+	</g>
+	<g id="our" transform="translate(535.6768958128048,373.3565880416993)">
+		<path id="p_934.496762602672" class="st19" d="M20,46.5C5.4,46.5-6.5,34.6-6.5,20S5.4-6.5,20-6.5S46.5,5.4,46.5,20
+			S34.6,46.5,20,46.5z"/>
+	</g>
+	<g id="roam" transform="translate(399.00181248151176,447.5089062416121)">
+		<path id="p_871.3160503123231" class="st20" d="M20,45.8C5.7,45.8-5.8,34.3-5.8,20S5.7-5.8,20-5.8S45.8,5.7,45.8,20
+			S34.3,45.8,20,45.8z"/>
+	</g>
+	<g id="effortlessly" transform="translate(351.8032176840976,472.1272425885933)">
+		<path id="p_848.4617451746188" class="st20" d="M20,45.5C5.9,45.5-5.5,34.1-5.5,20S5.9-5.5,20-5.5l0,0C34.1-5.5,45.5,5.9,45.5,20
+			S34.1,45.5,20,45.5L20,45.5z"/>
+	</g>
+	<g id="over" transform="translate(492.15796417714074,139.58596283566467)">
+		<path id="p_655.3555638335814" class="st21" d="M20,44.6C6.4,44.6-4.6,33.6-4.6,20S6.4-4.6,20-4.6S44.6,6.4,44.6,20
+			S33.6,44.6,20,44.6z"/>
+	</g>
+	<g id="lions" transform="translate(206.94574691113903,278.3542333054459)">
+		<path id="p_508.91161703736094" class="st21" d="M20,44.6C6.4,44.6-4.6,33.6-4.6,20S6.4-4.6,20-4.6S44.6,6.4,44.6,20
+			S33.6,44.6,20,44.6z"/>
+	</g>
+	<g id="around" transform="translate(285.74535960878825,134.62484023149153)">
+		<path id="p_443.7585249050503" class="st21" d="M20,44.4C6.5,44.4-4.4,33.5-4.4,20S6.5-4.4,20-4.4l0,0C33.5-4.4,44.4,6.5,44.4,20
+			S33.5,44.4,20,44.4L20,44.4z"/>
+	</g>
+	<g id="some" transform="translate(569.0811139924011,281.09440070949074)">
+		<path id="p_873.0782903424544" class="st22" d="M20,43.9C6.8,43.9-3.9,33.2-3.9,20S6.8-3.9,20-3.9l0,0C33.2-3.9,43.9,6.8,43.9,20
+			S33.2,43.9,20,43.9L20,43.9z"/>
+	</g>
+	<g id="usually" transform="translate(504.03886243390457,414.4776147800575)">
+		<path id="p_941.0402120566193" class="st23" d="M20,43.5C7,43.5-3.5,33-3.5,20S7-3.5,20-3.5S43.5,7,43.5,20S33,43.5,20,43.5z"/>
+	</g>
+	<g id="dogs" transform="translate(273.9235107566687,417.41826113688074)">
+		<path id="p_713.2937221952897" class="st24" d="M20,43C7.3,43-3,32.7-3,20S7.3-3,20-3S43,7.3,43,20S32.7,43,20,43z"/>
+	</g>
+	<g id="underneath" transform="translate(541.4359374017291,136.23277803987023)">
+		<path id="p_699.5524577164394" class="st24" d="M20,42.9C7.4,42.9-2.9,32.6-2.9,20S7.4-2.9,20-2.9l0,0C32.6-2.9,42.9,7.4,42.9,20
+			S32.6,42.9,20,42.9L20,42.9z"/>
+	</g>
+	<g id="tigers" transform="translate(236.90614804421128,140.30675709144788)">
+		<path id="p_399.0966474104993" class="st24" d="M20,42.9C7.4,42.9-2.9,32.6-2.9,20S7.4-2.9,20-2.9l0,0C32.6-2.9,42.9,7.4,42.9,20
+			S32.6,42.9,20,42.9L20,42.9z"/>
+	</g>
+	<g id="are" transform="translate(226.55449421386032,420.01354791033896)">
+		<path id="p_668.1596029678917" class="st25" d="M20,42.6C7.5,42.6-2.6,32.5-2.6,20S7.5-2.6,20-2.6l0,0C32.5-2.6,42.6,7.5,42.6,20
+			S32.5,42.6,20,42.6L20,42.6z"/>
+	</g>
+	<g id="interesting" transform="translate(203.05851245268312,229.47812362801173)">
+		<path id="p_454.0588974947272" class="st26" d="M20,42.5C7.6,42.5-2.5,32.4-2.5,20S7.6-2.5,20-2.5l0,0C32.4-2.5,42.5,7.6,42.5,20
+			S32.4,42.5,20,42.5L20,42.5z"/>
+	</g>
+	<g id="silently" transform="translate(570.6231913152722,222.4705853700362)">
+		<path id="p_814.0715598428994" class="st27" d="M20,42C7.9,42-2,32.1-2,20S7.9-2,20-2s22,9.8,22,22S32.1,42,20,42z"/>
+	</g>
+	<g id="apples" transform="translate(202.07585726063587,332.8645856195977)">
+		<path id="p_555.631858323056" class="st28" d="M20,41.7C8,41.7-1.7,32-1.7,20S8-1.7,20-1.7S41.7,8,41.7,20S32,41.7,20,41.7z"/>
+	</g>
+	<g id="surely" transform="translate(571.9654842989481,339.4688337365351)">
+		<path id="p_931.7256898108235" class="st29" d="M20,41.3C8.2,41.3-1.3,31.8-1.3,20S8.2-1.3,20-1.3l0,0c11.8,0,21.3,9.5,21.3,21.3
+			S31.8,41.3,20,41.3L20,41.3z"/>
+	</g>
+	<g id="on" transform="translate(440.26839173373907,473.8149639766667)">
+		<path id="p_934.3195922051705" class="st29" d="M20,41.2C8.3,41.2-1.2,31.7-1.2,20S8.3-1.2,20-1.2l0,0c11.7,0,21.2,9.5,21.2,21.2
+			S31.7,41.2,20,41.2L20,41.2z"/>
+	</g>
+	<g id="nightly" transform="translate(167.27717752354155,304.75759902630836)">
+		<path id="p_492.1788014214599" class="st30" d="M20,41.1C8.3,41.1-1.1,31.7-1.1,20S8.3-1.1,20-1.1S41.1,8.3,41.1,20
+			S31.7,41.1,20,41.1z"/>
+	</g>
+	<g id="to" transform="translate(605.0132511180523,251.20425710129007)">
+		<path id="p_876.1572382045305" class="st30" d="M20,40.9C8.4,40.9-0.9,31.6-0.9,20S8.4-0.9,20-0.9l0,0c11.6,0,20.9,9.4,20.9,20.9
+			C40.9,31.6,31.6,40.9,20,40.9L20,40.9z"/>
+	</g>
+	<g id="trees" transform="translate(469.58096841267195,98.00273332380502)">
+		<path id="p_587.3923816101776" class="st30" d="M20,40.8C8.5,40.8-0.8,31.5-0.8,20S8.5-0.8,20-0.8l0,0c11.5,0,20.8,9.3,20.8,20.8
+			S31.5,40.8,20,40.8L20,40.8z"/>
+	</g>
+	<g id="dolphins" transform="translate(604.8663957090357,310.60115194086995)">
+		<path id="p_935.0496289739461" class="st31" d="M20,40.6C8.6,40.6-0.6,31.4-0.6,20S8.6-0.6,20-0.6S40.6,8.6,40.6,20
+			S31.4,40.6,20,40.6z"/>
+	</g>
+	<g id="penguins" transform="translate(311.16406252448166,95.43130282575223)">
+		<path id="p_426.0249847134262" class="st31" d="M20,40.4C8.7,40.4-0.4,31.3-0.4,20S8.7-0.4,20-0.4S40.4,8.7,40.4,20
+			S31.3,40.4,20,40.4z"/>
+	</g>
+	<g id="everyone" transform="translate(347.0898409218061,72.7142881916719)">
+		<path id="p_438.98354115471744" class="st32" d="M20,40.2c-11.1,0-20.2-9-20.2-20.2c0-11.1,9-20.2,20.2-20.2l0,0
+			c11.1,0,20.2,9,20.2,20.2S31.2,40.2,20,40.2L20,40.2z"/>
+	</g>
+	<g id="eventually" transform="translate(432.3302789041711,77.23051898539592)">
+		<path id="p_528.5064636812467" class="st32" d="M20,39.9C9,39.9,0.1,31,0.1,20S9,0.1,20,0.1S39.9,9,39.9,20S31,39.9,20,39.9z"/>
+	</g>
+	<g id="tiny" transform="translate(291.8532480192339,458.25256475921674)">
+		<path id="p_768.8545767522481" class="st33" d="M20,39.7C9.1,39.7,0.3,30.9,0.3,20S9.1,0.3,20,0.3S39.7,9.1,39.7,20
+			S30.9,39.7,20,39.7z"/>
+	</g>
+	<g id="insects" transform="translate(487.62848540369805,456.38953071510537)">
+		<path id="p_962.6078337337857" class="st34" d="M20,39.6C9.2,39.6,0.4,30.8,0.4,20S9.2,0.4,20,0.4S39.6,9.2,39.6,20
+			S30.8,39.6,20,39.6z"/>
+	</g>
+	<g id="sally" transform="translate(310.7121500894758,494.8549992277097)">
+		<path id="p_824.0970285429792" class="st34" d="M20,39.5C9.2,39.5,0.5,30.8,0.5,20S9.2,0.5,20,0.5l0,0c10.8,0,19.5,8.7,19.5,19.5
+			S30.8,39.5,20,39.5L20,39.5z"/>
+	</g>
+	<g id="only" transform="translate(548.4171701230259,419.1855430330379)">
+		<path id="p_985.809762225744" class="st35" d="M20,39.2C9.4,39.2,0.8,30.6,0.8,20S9.4,0.8,20,0.8S39.2,9.4,39.2,20
+			S30.6,39.2,20,39.2z"/>
+	</g>
+	<g id="night" transform="translate(392.9523480313577,493.98504510102896)">
+		<path id="p_905.1037061030385" class="st35" d="M20,39.2C9.4,39.2,0.8,30.6,0.8,20S9.4,0.8,20,0.8l0,0c10.6,0,19.2,8.6,19.2,19.2
+			S30.6,39.2,20,39.2L20,39.2z"/>
+	</g>
+	<g id="yearly" transform="translate(476.483479549474,495.2714561205307)">
+		<path id="p_989.7162554423296" class="st35" d="M20,39C9.5,39,1,30.5,1,20S9.5,1,20,1s19,8.5,19,19S30.5,39,20,39z"/>
+	</g>
+	<g id="roaming" transform="translate(190.54673812303932,188.22340830466572)">
+		<path id="p_396.4616142810749" class="st36" d="M20,38.7C9.7,38.7,1.3,30.3,1.3,20S9.7,1.3,20,1.3S38.7,9.7,38.7,20
+			S30.3,38.7,20,38.7z"/>
+	</g>
+	<g id="observing" transform="translate(580.6161972155236,181.26728680161506)">
+		<path id="p_779.406935267083" class="st36" d="M20,38.5C9.8,38.5,1.5,30.2,1.5,20S9.8,1.5,20,1.5S38.5,9.8,38.5,20
+			S30.2,38.5,20,38.5z"/>
+	</g>
+	<g id="everywhere" transform="translate(189.18188204771164,372.86458638674117)">
+		<path id="p_579.4853372733164" class="st36" d="M20,38.4C9.8,38.4,1.6,30.2,1.6,20S9.8,1.6,20,1.6l0,0c10.2,0,18.4,8.3,18.4,18.4
+			C38.4,30.2,30.2,38.4,20,38.4L20,38.4z"/>
+	</g>
+	<g id="leaping" transform="translate(581.8682903530473,379.72515773015414)">
+		<path id="p_978.8619773001999" class="st36" d="M20,38.3C9.9,38.3,1.7,30.1,1.7,20S9.9,1.7,20,1.7l0,0c10.1,0,18.3,8.2,18.3,18.3
+			S30.1,38.3,20,38.3L20,38.3z"/>
+	</g>
+	<g id="can" transform="translate(427.27658907571396,513.0573232513057)">
+		<path id="p_957.5381532652773" class="st37" d="M20,38.2C9.9,38.2,1.8,30.1,1.8,20S9.9,1.8,20,1.8S38.2,9.9,38.2,20
+			S30.1,38.2,20,38.2z"/>
+	</g>
+	<g id="yearning" transform="translate(168.9941758249353,254.91785375721858)">
+		<path id="p_441.0086158748178" class="st37" d="M20,38.1C10,38.1,1.9,30,1.9,20S10,1.9,20,1.9S38.1,10,38.1,20S30,38.1,20,38.1z"
+			/>
+	</g>
+	<g id="regularly" transform="translate(509.9292566668945,99.15135784098595)">
+		<path id="p_625.7400206328496" class="st38" d="M20,37.7c-9.8,0-17.7-7.9-17.7-17.7S10.2,2.3,20,2.3l0,0c9.8,0,17.7,7.9,17.7,17.7
+			S29.8,37.7,20,37.7L20,37.7z"/>
+	</g>
+	<g id="their" transform="translate(271.3079548216074,93.1903178119442)">
+		<path id="p_381.09116475146135" class="st38" d="M20,37.6c-9.7,0-17.6-7.9-17.6-17.6S10.3,2.4,20,2.4S37.6,10.3,37.6,20
+			S29.7,37.6,20,37.6z"/>
+	</g>
+	<g id="yellow" transform="translate(253.470474357897,453.90811855148854)">
+		<path id="p_723.3611400841986" class="st39" d="M20,37c-9.4,0-17-7.6-17-17S10.6,3,20,3s17,7.6,17,17S29.4,37,20,37z"/>
+	</g>
+	<g id="little" transform="translate(196.57263845955822,151.13923708423886)">
+		<path id="p_363.69442271861004" class="st39" d="M20,37c-9.4,0-17-7.6-17-17S10.6,3,20,3s17,7.6,17,17S29.4,37,20,37z"/>
+	</g>
+	<g id="sometimes" transform="translate(525.4811299865243,450.81768320250023)">
+		<path id="p_992.0729776600851" class="st40" d="M20,36.8c-9.3,0-16.8-7.5-16.8-16.8S10.7,3.2,20,3.2l0,0c9.3,0,16.8,7.5,16.8,16.8
+			S29.3,36.8,20,36.8L20,36.8z"/>
+	</g>
+	<g id="nearby" transform="translate(235.50434809697057,98.79927988925272)">
+		<path id="p_350.05447880533495" class="st40" d="M20,36.8c-9.3,0-16.8-7.5-16.8-16.7S10.7,3.3,20,3.2l0,0
+			c9.3,0,16.8,7.5,16.8,16.7C36.8,29.2,29.3,36.7,20,36.8L20,36.8z"/>
+	</g>
+	<g id="especially" transform="translate(581.9542334215155,144.33196623487558)">
+		<path id="p_741.8257488739961" class="st41" d="M20,36.5c-9.1,0-16.5-7.4-16.5-16.5S10.9,3.5,20,3.5S36.5,10.9,36.5,20
+			S29.1,36.5,20,36.5z"/>
+	</g>
+	<g id="peter" transform="translate(545.7373419389021,95.20886175526917)">
+		<path id="p_656.4147165811138" class="st42" d="M20,36.5c-9.1,0-16.5-7.4-16.5-16.5S10.9,3.5,20,3.5l0,0c9.1,0,16.5,7.4,16.5,16.5
+			S29.1,36.5,20,36.5L20,36.5z"/>
+	</g>
+	<g id="enjoying" transform="translate(218.83288292632506,460.06568443704737)">
+		<path id="p_694.2001250478687" class="st42" d="M20,36.3C11,36.3,3.7,29,3.7,20S11,3.7,20,3.7l0,0c9,0,16.3,7.3,16.3,16.3
+			S29,36.3,20,36.3L20,36.3z"/>
+	</g>
+	<g id="exploring" transform="translate(187.21935419041614,409.4008746301764)">
+		<path id="p_611.8737700305824" class="st42" d="M20,36.3C11,36.3,3.7,29,3.7,20S11,3.7,20,3.7S36.3,11,36.3,20S29,36.3,20,36.3z"
+			/>
+	</g>
+	<g id="owls" transform="translate(400.62072186080906,56.20378369600911)">
+		<path id="p_472.02988802033053" class="st42" d="M20,36.2c-8.9,0-16.2-7.3-16.2-16.2S11.1,3.8,20,3.8S36.2,11.1,36.2,20
+			S28.9,36.2,20,36.2z"/>
+	</g>
+	<g id="navigate" transform="translate(585.5555518799712,415.88396827019585)">
+		<path id="p_1016.6207694916318" class="st42" d="M20,36.2C11.1,36.2,3.8,29,3.8,20S11.1,3.8,20,3.8S36.2,11.1,36.2,20
+			S28.9,36.2,20,36.2z"/>
+	</g>
+	<g id="observe" transform="translate(560.084337425597,454.5469919233611)">
+		<path id="p_1029.764204144683" class="st42" d="M20,36.1c-8.9,0-16.1-7.2-16.1-16.1S11.1,3.9,20,3.9l0,0c8.9,0,16.1,7.2,16.1,16.1
+			S28.9,36.1,20,36.1L20,36.1z"/>
+	</g>
+	<g id="nap" transform="translate(369.65594641231854,42.18408376484817)">
+		<path id="p_426.72882320224926" class="st43" d="M20,35.9c-8.8,0-15.9-7.1-15.9-15.9S11.2,4.1,20,4.1S35.9,11.2,35.9,20
+			S28.8,35.9,20,35.9z"/>
+	</g>
+	<g id="unicorns" transform="translate(140.4661422235969,276.60035400927893)">
+		<path id="p_431.9060215640778" class="st43" d="M20,35.8c-8.7,0-15.8-7.1-15.8-15.8S11.2,4.2,20,4.2l0,0c8.7,0,15.8,7.1,15.8,15.8
+			S28.8,35.8,20,35.8L20,35.8z"/>
+	</g>
+	<g id="near" transform="translate(629.3561770405873,281.1945782166228)">
+		<path id="p_925.3408591720571" class="st43" d="M20,35.8c-8.7,0-15.8-7.1-15.8-15.8S11.3,4.2,20,4.2S35.8,11.3,35.8,20
+			S28.7,35.8,20,35.8z"/>
+	</g>
+	<g id="very" transform="translate(465.6353489430181,59.710140295756304)">
+		<path id="p_540.1355931536214" class="st43" d="M20,35.8c-8.7,0-15.8-7.1-15.8-15.8S11.3,4.2,20,4.2S35.8,11.3,35.8,20
+			S28.7,35.8,20,35.8z"/>
+	</g>
+	<g id="animals" transform="translate(362.1784548766011,513.8501860947238)">
+		<path id="p_890.5944068310284" class="st43" d="M20,35.6c-8.6,0-15.6-7-15.6-15.6S11.4,4.4,20,4.4s15.6,7,15.6,15.6
+			S28.6,35.6,20,35.6z"/>
+	</g>
+	<g id="frogs" transform="translate(165.91129429079322,214.68452812540232)">
+		<path id="p_395.1615882758991" class="st43" d="M20,35.6c-8.6,0-15.6-7-15.6-15.6S11.4,4.4,20,4.4s15.6,7,15.6,15.6
+			S28.6,35.6,20,35.6z"/>
+	</g>
+	<g id="squirrels" transform="translate(312.66226295834724,57.61933218129715)">
+		<path id="p_384.7970676017703" class="st43" d="M20,35.5c-8.6,0-15.5-6.9-15.5-15.5S11.4,4.5,20,4.5l0,0c8.6,0,15.5,6.9,15.5,15.5
+			S28.6,35.5,20,35.5L20,35.5z"/>
+	</g>
+	<g id="bears" transform="translate(165.380986543013,346.15544594141494)">
+		<path id="p_525.9761576798063" class="st43" d="M20,35.4c-8.5,0-15.4-6.9-15.4-15.4S11.5,4.6,20,4.6S35.4,11.5,35.4,20
+			S28.5,35.4,20,35.4z"/>
+	</g>
+	<g id="even" transform="translate(606.3749298803513,206.1789589649037)">
+		<path id="p_826.9682822349002" class="st43" d="M20,35.4c-8.5,0-15.4-6.9-15.4-15.4S11.5,4.6,20,4.6l0,0c8.5,0,15.4,6.9,15.4,15.4
+			S28.5,35.4,20,35.4L20,35.4z"/>
+	</g>
+	<g id="nature" transform="translate(633.0308690076689,225.16338590689247)">
+		<path id="p_872.6086483042067" class="st43" d="M20,35.4c-8.5,0-15.4-6.9-15.4-15.4S11.5,4.6,20,4.6l0,0c8.5,0,15.4,6.9,15.4,15.4
+			S28.5,35.4,20,35.4L20,35.4z"/>
+	</g>
+	<g id="eat" transform="translate(137.52064377959533,329.0357694996856)">
+		<path id="p_480.92001775526955" class="st43" d="M20,35.4c-8.5,0-15.4-6.9-15.4-15.4S11.5,4.6,20,4.6S35.4,11.5,35.4,20
+			S28.5,35.4,20,35.4z"/>
+	</g>
+	<g id="really" transform="translate(140.10185479896606,234.7605209405532)">
+		<path id="p_389.0982672396682" class="st44" d="M20,35.2c-8.4,0-15.2-6.8-15.2-15.2S11.6,4.8,20,4.8l0,0c8.4,0,15.2,6.8,15.2,15.2
+			S28.4,35.2,20,35.2L20,35.2z"/>
+	</g>
+	<g id="evening" transform="translate(609.421203950976,348.03961914620805)">
+		<path id="p_971.6967145973329" class="st44" d="M20,35.2c-8.4,0-15.2-6.8-15.2-15.2S11.6,4.8,20,4.8l0,0c8.4,0,15.2,6.8,15.2,15.2
+			S28.4,35.2,20,35.2L20,35.2z"/>
+	</g>
+	<g id="iguanas" transform="translate(617.1644457419088,379.3620914443665)">
+		<path id="p_1010.6594822946164" class="st44" d="M20,35.1c-8.4,0-15.1-6.8-15.1-15.1S11.6,4.9,20,4.9l0,0
+			c8.4,0,15.1,6.8,15.1,15.1C35.1,28.4,28.4,35.1,20,35.1L20,35.1z"/>
+	</g>
+	<g id="environments" transform="translate(266.8158158767349,485.19263173995046)">
+		<path id="p_766.1413927250263" class="st44" d="M20,35.1c-8.4,0-15.1-6.8-15.1-15.1S11.6,4.9,20,4.9l0,0c8.4,0,15.1,6.8,15.1,15.1
+			C35.1,28.4,28.4,35.1,20,35.1L20,35.1z"/>
+	</g>
+	<g id="inspiring" transform="translate(497.669200918815,66.72886102459628)">
+		<path id="p_578.5051608414129" class="st44" d="M20,35.1c-8.3,0-15.1-6.8-15.1-15.1S11.7,4.9,20,4.9S35.1,11.7,35.1,20
+			S28.3,35.1,20,35.1z"/>
+	</g>
+	<g id="is" transform="translate(280.2702106402427,59.82843504232656)">
+		<path id="p_354.15391904567616" class="st44" d="M20,35.1c-8.3,0-15.1-6.7-15.1-15.1S11.7,4.9,20,4.9S35.1,11.7,35.1,20
+			S28.3,35.1,20,35.1z"/>
+	</g>
+	<g id="great" transform="translate(513.3926943829183,482.3027886721337)">
+		<path id="p_1009.750756418159" class="st44" d="M20,35.1c-8.3,0-15.1-6.7-15.1-15.1S11.7,4.9,20,4.9S35.1,11.7,35.1,20
+			S28.3,35.1,20,35.1z"/>
+	</g>
+	<g id="understand" transform="translate(331.6634389453235,524.4648668567506)">
+		<path id="p_869.9744679907808" class="st44" d="M20,34.8c-8.2,0-14.8-6.6-14.8-14.8S11.8,5.2,20,5.2l0,0c8.2,0,14.8,6.6,14.8,14.8
+			S28.2,34.8,20,34.8L20,34.8z"/>
+	</g>
+	<g id="bobby" transform="translate(280.03916807823816,514.1671283951933)">
+		<path id="p_808.0261123020889" class="st45" d="M20,34.8c-8.2,0-14.8-6.6-14.8-14.8S11.8,5.2,20,5.2l0,0c8.2,0,14.8,6.6,14.8,14.8
+			S28.2,34.8,20,34.8L20,34.8z"/>
+	</g>
+	<g id="apple" transform="translate(459.4154507264705,526.5112671067824)">
+		<path id="p_999.6672120441381" class="st45" d="M20,34.7c-8.1,0-14.7-6.6-14.7-14.7S11.9,5.3,20,5.3S34.7,11.9,34.7,20
+			S28.1,34.7,20,34.7z"/>
+	</g>
+	<g id="lively" transform="translate(507.13686820341184,513.3715434791665)">
+		<path id="p_1034.2489058934634" class="st45" d="M20,34.7c-8.1,0-14.7-6.6-14.7-14.7S11.9,5.3,20,5.3S34.7,11.9,34.7,20
+			S28.1,34.7,20,34.7z"/>
+	</g>
+	<g id="various" transform="translate(429.56944578296816,40.805408264096)">
+		<path id="p_484.0622291871297" class="st45" d="M20,34.7c-8.1,0-14.7-6.6-14.7-14.7S11.9,5.3,20,5.3S34.7,11.9,34.7,20
+			S28.1,34.7,20,34.7z"/>
+	</g>
+	<g id="youthful" transform="translate(204.06355432188775,118.41930233289162)">
+		<path id="p_336.1702317948449" class="st45" d="M20,34.7c-8.1,0-14.7-6.6-14.7-14.7S11.9,5.3,20,5.3S34.7,11.9,34.7,20
+			S28.1,34.7,20,34.7z"/>
+	</g>
+	<g id="giraffes" transform="translate(458.14290324984614,28.297327193969693)">
+		<path id="p_500.0475647964905" class="st46" d="M20,34.6c-8.1,0-14.6-6.5-14.6-14.6S11.9,5.4,20,5.4S34.6,11.9,34.6,20
+			S28.1,34.6,20,34.6z"/>
+	</g>
+	<g id="eagles" transform="translate(204.45814471233788,87.41904534815993)">
+		<path id="p_305.29603478274925" class="st46" d="M20,34.4C12,34.4,5.6,28,5.6,20S12,5.6,20,5.6S34.4,12,34.4,20S28,34.4,20,34.4z"
+			/>
+	</g>
+	<g id="monkeys" transform="translate(165.74906072031993,163.59098826651768)">
+		<path id="p_342.7045852497413" class="st46" d="M20,34.4C12.1,34.4,5.6,28,5.6,20S12.1,5.6,20,5.6l0,0c7.9,0,14.4,6.4,14.4,14.4
+			S27.9,34.4,20,34.4L20,34.4z"/>
+	</g>
+	<g id="finding" transform="translate(396.84088748651624,529.1709943736807)">
+		<path id="p_939.3491867502457" class="st46" d="M20,34.3c-7.9,0-14.3-6.4-14.3-14.3S12.1,5.7,20,5.7l0,0c7.9,0,14.3,6.4,14.3,14.3
+			S27.9,34.3,20,34.3L20,34.3z"/>
+	</g>
+	<g id="into" transform="translate(147.97140613534523,188.4616041892283)">
+		<path id="p_349.7430320216972" class="st46" d="M20,34.3c-7.9,0-14.3-6.4-14.3-14.3S12.1,5.7,20,5.7l0,0c7.9,0,14.3,6.4,14.3,14.3
+			S27.9,34.3,20,34.3L20,34.3z"/>
+	</g>
+	<g id="tranquil" transform="translate(370.4525536747711,544.4979323379835)">
+		<path id="p_928.2331723999189" class="st46" d="M20,34.3c-7.9,0-14.3-6.4-14.3-14.3S12.1,5.7,20,5.7l0,0c7.9,0,14.3,6.4,14.3,14.3
+			S27.9,34.3,20,34.3L20,34.3z"/>
+	</g>
+</g>
+<g transform="translate(335.1193812484301,280.9885456062648)">
+	<text transform="matrix(1 0 0 1 9.1084 19)" class="st47 st48">in</text>
+	<text transform="matrix(1 0 0 1 9.877 31)" class="st47 st49">3365</text>
+</g>
+<g transform="translate(439.25527520666145,280.9885456062648)">
+	<text transform="matrix(1 0 0 1 4.8794 19)" class="st47 st50">often</text>
+	<text transform="matrix(1 0 0 1 9.877 31)" class="st47 st49">3322</text>
+</g>
+<g transform="translate(387.5136570123158,370.2956721673077)">
+	<text transform="matrix(1 0 0 1 5.7734 20)" class="st47 st51">every</text>
+	<text transform="matrix(1 0 0 1 9.877 31)" class="st47 st49">3245</text>
+</g>
+<g transform="translate(387.4943871490903,198.8246505095343)">
+	<text transform="matrix(1 0 0 1 9.8301 19)" class="st47 st52">cats</text>
+	<text transform="matrix(1 0 0 1 9.877 31)" class="st47 st49">2506</text>
+</g>
+<g transform="translate(303.8553465686569,195.82588813331338)">
+	<text transform="matrix(1 0 0 1 5.7168 19)" class="st47 st49">always</text>
+	<text transform="matrix(1 0 0 1 9.877 31)" class="st47 st49">1803</text>
+</g>
+<g transform="translate(469.45222542220733,197.62399165072287)">
+	<text transform="matrix(1 0 0 1 18.2192 19)" class="st47 st49">a</text>
+	<text transform="matrix(1 0 0 1 9.877 31)" class="st47 st49">1641</text>
+</g>
+<g transform="translate(299.8317757106814,362.627841491703)">
+	<text transform="matrix(1 0 0 1 11.8276 19)" class="st47 st49">new</text>
+	<text transform="matrix(1 0 0 1 9.877 31)" class="st47 st49">1636</text>
+</g>
+<g transform="translate(473.89433788909844,361.2791790379499)">
+	<text transform="matrix(1 0 0 1 4.6011 19)" class="st47 st49">eagerly</text>
+	<text transform="matrix(1 0 0 1 9.877 31)" class="st47 st49">1531</text>
+</g>
+<g transform="translate(519.391970588645,248.53609035448798)">
+	<text transform="matrix(1 0 0 1 8.2119 19)" class="st47 st49">under</text>
+	<text transform="matrix(1 0 0 1 9.877 31)" class="st47 st49">1445</text>
+</g>
+<g transform="translate(256.8310423621291,248.86035417300022)">
+	<text transform="matrix(1 0 0 1 5.9927 19)" class="st47 st49">rabbits</text>
+	<text transform="matrix(1 0 0 1 9.877 31)" class="st47 st49">1265</text>
+</g>
+<g transform="translate(523.3615429847118,315.1026101576256)">
+	<text transform="matrix(1 0 0 1 8.4976 19)" class="st47 st49">rarely</text>
+	<text transform="matrix(1 0 0 1 9.877 31)" class="st47 st49">1244</text>
+</g>
+<g transform="translate(252.71556103336084,312.91007171328266)">
+	<text transform="matrix(1 0 0 1 -0.6846 19)" class="st47 st49">elephants</text>
+	<text transform="matrix(1 0 0 1 9.8769 31)" class="st47 st49">1217</text>
+</g>
+<g transform="translate(435.07109476251287,138.61220260411227)">
+	<text transform="matrix(1 0 0 1 15.9976 19)" class="st47 st49">all</text>
+	<text transform="matrix(1 0 0 1 10.248 31)" class="st47 st49">1197</text>
+</g>
+<g transform="translate(341.962563163425,137.75774141716607)">
+	<text transform="matrix(1 0 0 1 8.4927 19)" class="st47 st49">never</text>
+	<text transform="matrix(1 0 0 1 10.248 31)" class="st47 st49">1153</text>
+</g>
+<g transform="translate(450.04173346006087,422.442466188773)">
+	<text transform="matrix(1 0 0 1 12.6577 19)" class="st47 st49">and</text>
+	<text transform="matrix(1 0 0 1 9.877 31)" class="st47 st49">1088</text>
+</g>
+<g transform="translate(326.593118862367,422.671766145966)">
+	<text transform="matrix(1 0 0 1 8.7734 19)" class="st47 st49">many</text>
+	<text transform="matrix(1 0 0 1 9.877 31)" class="st47 st49">1009</text>
+</g>
+<g transform="translate(388.49806535100646,100.4204908271723)">
+	<text transform="matrix(1 0 0 1 5.9854 19)" class="st47 st49">people</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">985</text>
+</g>
+<g transform="translate(533.4896234639068,187.5208115179853)">
+	<text transform="matrix(1 0 0 1 14.0493 19)" class="st47 st49">the</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">941</text>
+</g>
+<g transform="translate(237.76718326219918,191.85145573932596)">
+	<text transform="matrix(1 0 0 1 9.0469 19)" class="st47 st49">enjoy</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">917</text>
+</g>
+<g transform="translate(235.99991216007012,369.82536296030565)">
+	<text transform="matrix(1 0 0 1 11.8276 19)" class="st47 st49">love</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">904</text>
+</g>
+<g transform="translate(535.6768958128048,373.3565880416993)">
+	<text transform="matrix(1 0 0 1 13.7734 19)" class="st47 st49">our</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">896</text>
+</g>
+<g transform="translate(399.00181248151176,447.5089062416121)">
+	<text transform="matrix(1 0 0 1 9.6084 19)" class="st47 st49">roam</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">852</text>
+</g>
+<g transform="translate(351.8032176840976,472.1272425885933)">
+	<text transform="matrix(1 0 0 1 -2.8062 19)" class="st47 st49">effortlessly</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">834</text>
+</g>
+<g transform="translate(492.15796417714074,139.58596283566467)">
+	<text transform="matrix(1 0 0 1 11.2734 19)" class="st47 st49">over</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">775</text>
+</g>
+<g transform="translate(206.94574691113903,278.3542333054459)">
+	<text transform="matrix(1 0 0 1 10.7168 19)" class="st47 st49">lions</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">775</text>
+</g>
+<g transform="translate(285.74535960878825,134.62484023149153)">
+	<text transform="matrix(1 0 0 1 5.4312 19)" class="st47 st49">around</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">761</text>
+</g>
+<g transform="translate(569.0811139924011,281.09440070949074)">
+	<text transform="matrix(1 0 0 1 8.7734 19)" class="st47 st49">some</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">731</text>
+</g>
+<g transform="translate(504.03886243390457,414.4776147800575)">
+	<text transform="matrix(1 0 0 1 5.436 19)" class="st47 st49">usually</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">708</text>
+</g>
+<g transform="translate(273.9235107566687,417.41826113688074)">
+	<text transform="matrix(1 0 0 1 10.1577 19)" class="st47 st49">dogs</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">674</text>
+</g>
+<g transform="translate(541.4359374017291,136.23277803987023)">
+	<text transform="matrix(1 0 0 1 -4.3003 19)" class="st47 st49">underneath</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">670</text>
+</g>
+<g transform="translate(236.90614804421128,140.30675709144788)">
+	<text transform="matrix(1 0 0 1 8.7734 19)" class="st47 st49">tigers</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">670</text>
+</g>
+<g transform="translate(226.55449421386032,420.01354791033896)">
+	<text transform="matrix(1 0 0 1 13.7734 19)" class="st47 st49">are</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">653</text>
+</g>
+<g transform="translate(203.05851245268312,229.47812362801173)">
+	<text transform="matrix(1 0 0 1 -2.0688 19)" class="st47 st49">interesting</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">649</text>
+</g>
+<g transform="translate(570.6231913152722,222.4705853700362)">
+	<text transform="matrix(1 0 0 1 5.7168 19)" class="st47 st49">silently</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">618</text>
+</g>
+<g transform="translate(202.07585726063587,332.8645856195977)">
+	<text transform="matrix(1 0 0 1 6.2661 19)" class="st47 st49">apples</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">602</text>
+</g>
+<g transform="translate(571.9654842989481,339.4688337365351)">
+	<text transform="matrix(1 0 0 1 7.6626 19)" class="st47 st49">surely</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">580</text>
+</g>
+<g transform="translate(440.26839173373907,473.8149639766667)">
+	<text transform="matrix(1 0 0 1 15.4385 19)" class="st47 st49">on</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">577</text>
+</g>
+<g transform="translate(167.27717752354155,304.75759902630836)">
+	<text transform="matrix(1 0 0 1 6.5469 19)" class="st47 st49">nightly</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">572</text>
+</g>
+<g transform="translate(605.0132511180523,251.20425710129007)">
+	<text transform="matrix(1 0 0 1 16.8301 19)" class="st47 st49">to</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">561</text>
+</g>
+<g transform="translate(469.58096841267195,98.00273332380502)">
+	<text transform="matrix(1 0 0 1 9.8843 19)" class="st47 st49">trees</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">554</text>
+</g>
+<g transform="translate(604.8663957090357,310.60115194086995)">
+	<text transform="matrix(1 0 0 1 2.3745 19)" class="st47 st49">dolphins</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">542</text>
+</g>
+<g transform="translate(311.16406252448166,95.43130282575223)">
+	<text transform="matrix(1 0 0 1 0.7046 19)" class="st47 st49">penguins</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">534</text>
+</g>
+<g transform="translate(347.0898409218061,72.7142881916719)">
+	<text transform="matrix(1 0 0 1 0.4312 19)" class="st47 st49">everyone</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">521</text>
+</g>
+<g transform="translate(432.3302789041711,77.23051898539592)">
+	<text transform="matrix(1 0 0 1 -1.5146 19)" class="st47 st49">eventually</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">509</text>
+</g>
+<g transform="translate(291.8532480192339,458.25256475921674)">
+	<text transform="matrix(1 0 0 1 13.2192 19)" class="st47 st49">tiny</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">499</text>
+</g>
+<g transform="translate(487.62848540369805,456.38953071510537)">
+	<text transform="matrix(1 0 0 1 5.4385 19)" class="st47 st49">insects</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">491</text>
+</g>
+<g transform="translate(310.7121500894758,494.8549992277097)">
+	<text transform="matrix(1 0 0 1 10.9976 19)" class="st47 st49">sally</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">488</text>
+</g>
+<g transform="translate(548.4171701230259,419.1855430330379)">
+	<text transform="matrix(1 0 0 1 11.8276 19)" class="st47 st49">only</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">472</text>
+</g>
+<g transform="translate(392.9523480313577,493.98504510102896)">
+	<text transform="matrix(1 0 0 1 10.1577 19)" class="st47 st49">night</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">470</text>
+</g>
+<g transform="translate(476.483479549474,495.2714561205307)">
+	<text transform="matrix(1 0 0 1 7.6626 19)" class="st47 st49">yearly</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">460</text>
+</g>
+<g transform="translate(190.54673812303932,188.22340830466572)">
+	<text transform="matrix(1 0 0 1 2.936 19)" class="st47 st49">roaming</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">447</text>
+</g>
+<g transform="translate(580.6161972155236,181.26728680161506)">
+	<text transform="matrix(1 0 0 1 -0.6797 19)" class="st47 st49">observing</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">439</text>
+</g>
+<g transform="translate(189.18188204771164,372.86458638674117)">
+	<text transform="matrix(1 0 0 1 -4.8447 19)" class="st47 st49">everywhere</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">435</text>
+</g>
+<g transform="translate(581.8682903530473,379.72515773015414)">
+	<text transform="matrix(1 0 0 1 4.8745 19)" class="st47 st49">leaping</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">427</text>
+</g>
+<g transform="translate(427.27658907571396,513.0573232513057)">
+	<text transform="matrix(1 0 0 1 12.9385 19)" class="st47 st49">can</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">424</text>
+</g>
+<g transform="translate(168.9941758249353,254.91785375721858)">
+	<text transform="matrix(1 0 0 1 1.8203 19)" class="st47 st49">yearning</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">419</text>
+</g>
+<g transform="translate(509.9292566668945,99.15135784098595)">
+	<text transform="matrix(1 0 0 1 1.8252 19)" class="st47 st49">regularly</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">399</text>
+</g>
+<g transform="translate(271.3079548216074,93.1903178119442)">
+	<text transform="matrix(1 0 0 1 11.2734 19)" class="st47 st49">their</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">396</text>
+</g>
+<g transform="translate(253.470474357897,453.90811855148854)">
+	<text transform="matrix(1 0 0 1 7.1059 19)" class="st47 st49">yellow</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">369</text>
+</g>
+<g transform="translate(196.57263845955822,151.13923708423886)">
+	<text transform="matrix(1 0 0 1 12.1084 19)" class="st47 st49">little</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">369</text>
+</g>
+<g transform="translate(525.4811299865243,450.81768320250023)">
+	<text transform="matrix(1 0 0 1 -3.1724 19)" class="st47 st49">sometimes</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">360</text>
+</g>
+<g transform="translate(235.50434809697057,98.79927988925272)">
+	<text transform="matrix(1 0 0 1 5.7119 19)" class="st47 st49">nearby</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">359</text>
+</g>
+<g transform="translate(581.9542334215155,144.33196623487558)">
+	<text transform="matrix(1 0 0 1 -0.9556 19)" class="st47 st49">especially</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">350</text>
+</g>
+<g transform="translate(545.7373419389021,95.20886175526917)">
+	<text transform="matrix(1 0 0 1 9.6035 19)" class="st47 st49">peter</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">347</text>
+</g>
+<g transform="translate(218.83288292632506,460.06568443704737)">
+	<text transform="matrix(1 0 0 1 2.3745 19)" class="st47 st49">enjoying</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">340</text>
+</g>
+<g transform="translate(187.21935419041614,409.4008746301764)">
+	<text transform="matrix(1 0 0 1 0.7095 19)" class="st47 st49">exploring</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">338</text>
+</g>
+<g transform="translate(400.62072186080906,56.20378369600911)">
+	<text transform="matrix(1 0 0 1 10.9976 19)" class="st47 st49">owls</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">336</text>
+</g>
+<g transform="translate(585.5555518799712,415.88396827019585)">
+	<text transform="matrix(1 0 0 1 2.0962 19)" class="st47 st49">navigate</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">335</text>
+</g>
+<g transform="translate(560.084337425597,454.5469919233611)">
+	<text transform="matrix(1 0 0 1 3.2119 19)" class="st47 st49">observe</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">333</text>
+</g>
+<g transform="translate(369.65594641231854,42.18408376484817)">
+	<text transform="matrix(1 0 0 1 12.6577 19)" class="st47 st49">nap</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">323</text>
+</g>
+<g transform="translate(140.4661422235969,276.60035400927893)">
+	<text transform="matrix(1 0 0 1 2.1011 19)" class="st47 st49">unicorns</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">321</text>
+</g>
+<g transform="translate(629.3561770405873,281.1945782166228)">
+	<text transform="matrix(1 0 0 1 10.9927 19)" class="st47 st49">near</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">319</text>
+</g>
+<g transform="translate(465.6353489430181,59.710140295756304)">
+	<text transform="matrix(1 0 0 1 11.5542 19)" class="st47 st49">very</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">319</text>
+</g>
+<g transform="translate(362.1784548766011,513.8501860947238)">
+	<text transform="matrix(1 0 0 1 3.771 19)" class="st47 st49">animals</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">310</text>
+</g>
+<g transform="translate(165.91129429079322,214.68452812540232)">
+	<text transform="matrix(1 0 0 1 9.8843 19)" class="st47 st49">frogs</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">310</text>
+</g>
+<g transform="translate(312.66226295834724,57.61933218129715)">
+	<text transform="matrix(1 0 0 1 2.106 19)" class="st47 st49">squirrels</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">308</text>
+</g>
+<g transform="translate(165.380986543013,346.15544594141494)">
+	<text transform="matrix(1 0 0 1 8.4927 19)" class="st47 st49">bears</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">305</text>
+</g>
+<g transform="translate(606.3749298803513,206.1789589649037)">
+	<text transform="matrix(1 0 0 1 10.1577 19)" class="st47 st49">even</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">304</text>
+</g>
+<g transform="translate(633.0308690076689,225.16338590689247)">
+	<text transform="matrix(1 0 0 1 6.8228 19)" class="st47 st49">nature</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">304</text>
+</g>
+<g transform="translate(137.52064377959533,329.0357694996856)">
+	<text transform="matrix(1 0 0 1 14.0493 19)" class="st47 st49">eat</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">302</text>
+</g>
+<g transform="translate(140.10185479896606,234.7605209405532)">
+	<text transform="matrix(1 0 0 1 9.0518 19)" class="st47 st49">really</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">297</text>
+</g>
+<g transform="translate(609.421203950976,348.03961914620805)">
+	<text transform="matrix(1 0 0 1 3.4854 19)" class="st47 st49">evening</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">297</text>
+</g>
+<g transform="translate(617.1644457419088,379.3620914443665)">
+	<text transform="matrix(1 0 0 1 3.4854 19)" class="st47 st49">iguanas</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">293</text>
+</g>
+<g transform="translate(266.8158158767349,485.19263173995046)">
+	<text transform="matrix(1 0 0 1 -2.0146 19)" class="st47 st53">environments</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">293</text>
+</g>
+<g transform="translate(497.669200918815,66.72886102459628)">
+	<text transform="matrix(1 0 0 1 2.3794 19)" class="st47 st49">inspiring</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">292</text>
+</g>
+<g transform="translate(280.2702106402427,59.82843504232656)">
+	<text transform="matrix(1 0 0 1 17.3892 19)" class="st47 st49">is</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">290</text>
+</g>
+<g transform="translate(513.3926943829183,482.3027886721337)">
+	<text transform="matrix(1 0 0 1 9.6035 19)" class="st47 st49">great</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">290</text>
+</g>
+<g transform="translate(331.6634389453235,524.4648668567506)">
+	<text transform="matrix(1 0 0 1 0.9805 20)" class="st47 st53">understand</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">282</text>
+</g>
+<g transform="translate(280.03916807823816,514.1671283951933)">
+	<text transform="matrix(1 0 0 1 7.377 19)" class="st47 st49">bobby</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">281</text>
+</g>
+<g transform="translate(459.4154507264705,526.5112671067824)">
+	<text transform="matrix(1 0 0 1 8.7661 19)" class="st47 st49">apple</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">278</text>
+</g>
+<g transform="translate(507.13686820341184,513.3715434791665)">
+	<text transform="matrix(1 0 0 1 9.8867 19)" class="st47 st49">lively</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">278</text>
+</g>
+<g transform="translate(429.56944578296816,40.805408264096)">
+	<text transform="matrix(1 0 0 1 4.8818 19)" class="st47 st49">various</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">276</text>
+</g>
+<g transform="translate(204.06355432188775,118.41930233289162)">
+	<text transform="matrix(1 0 0 1 3.4878 19)" class="st47 st49">youthful</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">276</text>
+</g>
+<g transform="translate(458.14290324984614,28.297327193969693)">
+	<text transform="matrix(1 0 0 1 4.6938 19)" class="st47 st49">giraffes</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">273</text>
+</g>
+<g transform="translate(204.45814471233788,87.41904534815993)">
+	<text transform="matrix(1 0 0 1 6.2661 19)" class="st47 st49">eagles</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">266</text>
+</g>
+<g transform="translate(165.74906072031993,163.59098826651768)">
+	<text transform="matrix(1 0 0 1 0.9927 19)" class="st47 st49">monkeys</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">264</text>
+</g>
+<g transform="translate(396.84088748651624,529.1709943736807)">
+	<text transform="matrix(1 0 0 1 6.2661 19)" class="st47 st49">finding</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">263</text>
+</g>
+<g transform="translate(147.97140613534523,188.4616041892283)">
+	<text transform="matrix(1 0 0 1 12.9385 19)" class="st47 st49">into</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">262</text>
+</g>
+<g transform="translate(370.4525536747711,544.4979323379835)">
+	<text transform="matrix(1 0 0 1 4.6011 19)" class="st47 st49">tranquil</text>
+	<text transform="matrix(1 0 0 1 12.6577 31)" class="st47 st49">261</text>
+</g>
+<g transform="translate(0,154.5)">
+	<rect x="598.5" y="-101.4" class="st46" width="1" height="10"/>
+	<text transform="matrix(1 0 0 1 598.531 -78.4444)" class="st47 st49">261</text>
+	<g transform="translate(1,0)">
+		<rect x="598.5" y="-101.4" class="st44" width="1" height="10"/>
+	</g>
+	<g transform="translate(2,0)">
+		<rect x="598.5" y="-101.4" class="st43" width="1" height="10"/>
+	</g>
+	<g transform="translate(3,0)">
+		<rect x="598.5" y="-101.4" class="st42" width="1" height="10"/>
+	</g>
+	<g transform="translate(4,0)">
+		<rect x="598.5" y="-101.4" class="st38" width="1" height="10"/>
+	</g>
+	<g transform="translate(5,0)">
+		<rect x="598.5" y="-101.4" class="st54" width="1" height="10"/>
+	</g>
+	<g transform="translate(6,0)">
+		<rect x="598.5" y="-101.4" class="st36" width="1" height="10"/>
+	</g>
+	<g transform="translate(7,0)">
+		<rect x="598.5" y="-101.4" class="st35" width="1" height="10"/>
+	</g>
+	<g transform="translate(8,0)">
+		<rect x="598.5" y="-101.4" class="st34" width="1" height="10"/>
+	</g>
+	<g transform="translate(9,0)">
+		<rect x="598.5" y="-101.4" class="st32" width="1" height="10"/>
+	</g>
+	<g transform="translate(10,0)">
+		<rect x="598.5" y="-101.4" class="st31" width="1" height="10"/>
+	</g>
+	<g transform="translate(11,0)">
+		<rect x="598.5" y="-101.4" class="st30" width="1" height="10"/>
+	</g>
+	<g transform="translate(12,0)">
+		<rect x="598.5" y="-101.4" class="st28" width="1" height="10"/>
+	</g>
+	<g transform="translate(13,0)">
+		<rect x="598.5" y="-101.4" class="st26" width="1" height="10"/>
+	</g>
+	<g transform="translate(14,0)">
+		<rect x="598.5" y="-101.4" class="st24" width="1" height="10"/>
+	</g>
+	<g transform="translate(15,0)">
+		<rect x="598.5" y="-101.4" class="st55" width="1" height="10"/>
+	</g>
+	<g transform="translate(16,0)">
+		<rect x="598.5" y="-101.4" class="st23" width="1" height="10"/>
+	</g>
+	<g transform="translate(17,0)">
+		<rect x="598.5" y="-101.4" class="st56" width="1" height="10"/>
+	</g>
+	<g transform="translate(18,0)">
+		<rect x="598.5" y="-101.4" class="st21" width="1" height="10"/>
+	</g>
+	<g transform="translate(19,0)">
+		<rect x="598.5" y="-101.4" class="st57" width="1" height="10"/>
+	</g>
+	<g transform="translate(20,0)">
+		<rect x="598.5" y="-101.4" class="st20" width="1" height="10"/>
+	</g>
+	<g transform="translate(21,0)">
+		<rect x="598.5" y="-101.4" class="st58" width="1" height="10"/>
+	</g>
+	<g transform="translate(22,0)">
+		<rect x="598.5" y="-101.4" class="st19" width="1" height="10"/>
+	</g>
+	<g transform="translate(23,0)">
+		<rect x="598.5" y="-101.4" class="st18" width="1" height="10"/>
+	</g>
+	<g transform="translate(24,0)">
+		<rect x="598.5" y="-101.4" class="st17" width="1" height="10"/>
+	</g>
+	<g transform="translate(25,0)">
+		<rect x="598.5" y="-101.4" class="st59" width="1" height="10"/>
+	</g>
+	<g transform="translate(26,0)">
+		<rect x="598.5" y="-101.4" class="st60" width="1" height="10"/>
+	</g>
+	<g transform="translate(27,0)">
+		<rect x="598.5" y="-101.4" class="st15" width="1" height="10"/>
+	</g>
+	<g transform="translate(28,0)">
+		<rect x="598.5" y="-101.4" class="st61" width="1" height="10"/>
+	</g>
+	<g transform="translate(29,0)">
+		<rect x="598.5" y="-101.4" class="st14" width="1" height="10"/>
+	</g>
+	<g transform="translate(30,0)">
+		<rect x="598.5" y="-101.4" class="st62" width="1" height="10"/>
+	</g>
+	<g transform="translate(31,0)">
+		<rect x="598.5" y="-101.4" class="st13" width="1" height="10"/>
+	</g>
+	<g transform="translate(32,0)">
+		<rect x="598.5" y="-101.4" class="st63" width="1" height="10"/>
+	</g>
+	<g transform="translate(33,0)">
+		<rect x="598.5" y="-101.4" class="st12" width="1" height="10"/>
+	</g>
+	<g transform="translate(34,0)">
+		<rect x="598.5" y="-101.4" class="st11" width="1" height="10"/>
+	</g>
+	<g transform="translate(35,0)">
+		<rect x="598.5" y="-101.4" class="st64" width="1" height="10"/>
+	</g>
+	<g transform="translate(36,0)">
+		<rect x="598.5" y="-101.4" class="st65" width="1" height="10"/>
+	</g>
+	<g transform="translate(37,0)">
+		<rect x="598.5" y="-101.4" class="st66" width="1" height="10"/>
+	</g>
+	<g transform="translate(38,0)">
+		<rect x="598.5" y="-101.4" class="st67" width="1" height="10"/>
+	</g>
+	<g transform="translate(39,0)">
+		<rect x="598.5" y="-101.4" class="st68" width="1" height="10"/>
+	</g>
+	<g transform="translate(40,0)">
+		<rect x="598.5" y="-101.4" class="st69" width="1" height="10"/>
+	</g>
+	<g transform="translate(41,0)">
+		<rect x="598.5" y="-101.4" class="st70" width="1" height="10"/>
+	</g>
+	<g transform="translate(42,0)">
+		<rect x="598.5" y="-101.4" class="st71" width="1" height="10"/>
+	</g>
+	<g transform="translate(43,0)">
+		<rect x="598.5" y="-101.4" class="st72" width="1" height="10"/>
+	</g>
+	<g transform="translate(44,0)">
+		<rect x="598.5" y="-101.4" class="st73" width="1" height="10"/>
+	</g>
+	<g transform="translate(45,0)">
+		<rect x="598.5" y="-101.4" class="st74" width="1" height="10"/>
+	</g>
+	<g transform="translate(46,0)">
+		<rect x="598.5" y="-101.4" class="st75" width="1" height="10"/>
+	</g>
+	<g transform="translate(47,0)">
+		<rect x="598.5" y="-101.4" class="st76" width="1" height="10"/>
+	</g>
+	<g transform="translate(48,0)">
+		<rect x="598.5" y="-101.4" class="st6" width="1" height="10"/>
+	</g>
+	<g transform="translate(49,0)">
+		<rect x="598.5" y="-101.4" class="st5" width="1" height="10"/>
+	</g>
+	<g transform="translate(50,0)">
+		<rect x="598.5" y="-101.4" class="st77" width="1" height="10"/>
+	</g>
+	<g transform="translate(51,0)">
+		<rect x="598.5" y="-101.4" class="st78" width="1" height="10"/>
+	</g>
+	<g transform="translate(52,0)">
+		<rect x="598.5" y="-101.4" class="st79" width="1" height="10"/>
+	</g>
+	<g transform="translate(53,0)">
+		<rect x="598.5" y="-101.4" class="st80" width="1" height="10"/>
+	</g>
+	<g transform="translate(54,0)">
+		<rect x="598.5" y="-101.4" class="st4" width="1" height="10"/>
+	</g>
+	<g transform="translate(55,0)">
+		<rect x="598.5" y="-101.4" class="st81" width="1" height="10"/>
+	</g>
+	<g transform="translate(56,0)">
+		<rect x="598.5" y="-101.4" class="st82" width="1" height="10"/>
+	</g>
+	<g transform="translate(57,0)">
+		<rect x="598.5" y="-101.4" class="st83" width="1" height="10"/>
+	</g>
+	<g transform="translate(58,0)">
+		<rect x="598.5" y="-101.4" class="st84" width="1" height="10"/>
+	</g>
+	<g transform="translate(59,0)">
+		<rect x="598.5" y="-101.4" class="st85" width="1" height="10"/>
+	</g>
+	<g transform="translate(60,0)">
+		<rect x="598.5" y="-101.4" class="st86" width="1" height="10"/>
+	</g>
+	<g transform="translate(61,0)">
+		<rect x="598.5" y="-101.4" class="st87" width="1" height="10"/>
+	</g>
+	<g transform="translate(62,0)">
+		<rect x="598.5" y="-101.4" class="st88" width="1" height="10"/>
+	</g>
+	<g transform="translate(63,0)">
+		<rect x="598.5" y="-101.4" class="st89" width="1" height="10"/>
+	</g>
+	<g transform="translate(64,0)">
+		<rect x="598.5" y="-101.4" class="st90" width="1" height="10"/>
+	</g>
+	<g transform="translate(65,0)">
+		<rect x="598.5" y="-101.4" class="st91" width="1" height="10"/>
+	</g>
+	<g transform="translate(66,0)">
+		<rect x="598.5" y="-101.4" class="st92" width="1" height="10"/>
+	</g>
+	<g transform="translate(67,0)">
+		<rect x="598.5" y="-101.4" class="st93" width="1" height="10"/>
+	</g>
+	<g transform="translate(68,0)">
+		<rect x="598.5" y="-101.4" class="st94" width="1" height="10"/>
+	</g>
+	<g transform="translate(69,0)">
+		<rect x="598.5" y="-101.4" class="st95" width="1" height="10"/>
+	</g>
+	<g transform="translate(70,0)">
+		<rect x="598.5" y="-101.4" class="st96" width="1" height="10"/>
+	</g>
+	<g transform="translate(71,0)">
+		<rect x="598.5" y="-101.4" class="st97" width="1" height="10"/>
+	</g>
+	<g transform="translate(72,0)">
+		<rect x="598.5" y="-101.4" class="st98" width="1" height="10"/>
+	</g>
+	<g transform="translate(73,0)">
+		<rect x="598.5" y="-101.4" class="st99" width="1" height="10"/>
+	</g>
+	<g transform="translate(74,0)">
+		<rect x="598.5" y="-101.4" class="st100" width="1" height="10"/>
+	</g>
+	<g transform="translate(75,0)">
+		<rect x="598.5" y="-101.4" class="st101" width="1" height="10"/>
+	</g>
+	<g transform="translate(76,0)">
+		<rect x="598.5" y="-101.4" class="st102" width="1" height="10"/>
+	</g>
+	<g transform="translate(77,0)">
+		<rect x="598.5" y="-101.4" class="st103" width="1" height="10"/>
+	</g>
+	<g transform="translate(78,0)">
+		<rect x="598.5" y="-101.4" class="st104" width="1" height="10"/>
+	</g>
+	<g transform="translate(79,0)">
+		<rect x="598.5" y="-101.4" class="st3" width="1" height="10"/>
+	</g>
+	<g transform="translate(80,0)">
+		<rect x="598.5" y="-101.4" class="st105" width="1" height="10"/>
+	</g>
+	<g transform="translate(81,0)">
+		<rect x="598.5" y="-101.4" class="st106" width="1" height="10"/>
+	</g>
+	<g transform="translate(82,0)">
+		<rect x="598.5" y="-101.4" class="st107" width="1" height="10"/>
+	</g>
+	<g transform="translate(83,0)">
+		<rect x="598.5" y="-101.4" class="st108" width="1" height="10"/>
+	</g>
+	<g transform="translate(84,0)">
+		<rect x="598.5" y="-101.4" class="st109" width="1" height="10"/>
+	</g>
+	<g transform="translate(85,0)">
+		<rect x="598.5" y="-101.4" class="st110" width="1" height="10"/>
+	</g>
+	<g transform="translate(86,0)">
+		<rect x="598.5" y="-101.4" class="st111" width="1" height="10"/>
+	</g>
+	<g transform="translate(87,0)">
+		<rect x="598.5" y="-101.4" class="st112" width="1" height="10"/>
+	</g>
+	<g transform="translate(88,0)">
+		<rect x="598.5" y="-101.4" class="st113" width="1" height="10"/>
+	</g>
+	<g transform="translate(89,0)">
+		<rect x="598.5" y="-101.4" class="st114" width="1" height="10"/>
+	</g>
+	<g transform="translate(90,0)">
+		<rect x="598.5" y="-101.4" class="st115" width="1" height="10"/>
+	</g>
+	<g transform="translate(91,0)">
+		<rect x="598.5" y="-101.4" class="st116" width="1" height="10"/>
+	</g>
+	<g transform="translate(92,0)">
+		<rect x="598.5" y="-101.4" class="st117" width="1" height="10"/>
+	</g>
+	<g transform="translate(93,0)">
+		<rect x="598.5" y="-101.4" class="st118" width="1" height="10"/>
+	</g>
+	<g transform="translate(94,0)">
+		<rect x="598.5" y="-101.4" class="st119" width="1" height="10"/>
+	</g>
+	<g transform="translate(95,0)">
+		<rect x="598.5" y="-101.4" class="st120" width="1" height="10"/>
+	</g>
+	<g transform="translate(96,0)">
+		<rect x="598.5" y="-101.4" class="st121" width="1" height="10"/>
+	</g>
+	<g transform="translate(97,0)">
+		<rect x="598.5" y="-101.4" class="st122" width="1" height="10"/>
+	</g>
+	<g transform="translate(98,0)">
+		<rect x="598.5" y="-101.4" class="st123" width="1" height="10"/>
+	</g>
+	<g transform="translate(99,0)">
+		<rect x="598.5" y="-101.4" class="st124" width="1" height="10"/>
+	</g>
+	<g transform="translate(100,0)">
+		<rect x="598.5" y="-101.4" class="st125" width="1" height="10"/>
+	</g>
+	<g transform="translate(101,0)">
+		<rect x="598.5" y="-101.4" class="st126" width="1" height="10"/>
+	</g>
+	<g transform="translate(102,0)">
+		<rect x="598.5" y="-101.4" class="st127" width="1" height="10"/>
+	</g>
+	<g transform="translate(103,0)">
+		<rect x="598.5" y="-101.4" class="st128" width="1" height="10"/>
+	</g>
+	<g transform="translate(104,0)">
+		<rect x="598.5" y="-101.4" class="st129" width="1" height="10"/>
+	</g>
+	<g transform="translate(105,0)">
+		<rect x="598.5" y="-101.4" class="st2" width="1" height="10"/>
+	</g>
+	<g transform="translate(106,0)">
+		<rect x="598.5" y="-101.4" class="st130" width="1" height="10"/>
+	</g>
+	<g transform="translate(107,0)">
+		<rect x="598.5" y="-101.4" class="st1" width="1" height="10"/>
+	</g>
+	<g transform="translate(108,0)">
+		<rect x="598.5" y="-101.4" class="st131" width="1" height="10"/>
+	</g>
+	<rect x="707.5" y="-101.4" class="st0" width="1" height="10"/>
+	<text transform="matrix(1 0 0 1 690.9451 -78.4444)" class="st47 st49">3365</text>
+	<text transform="matrix(1 0 0 1 597.531 -108.9444)" class="st47 st52">word count</text>
+	<rect x="614.8" y="-79.8" class="st132" width="3.8" height="0"/>
+</g>
+</svg>
