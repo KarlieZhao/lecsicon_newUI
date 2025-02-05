@@ -1,27 +1,22 @@
 "use client"
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 
+interface WordData {
+    word: string;
+    sentence: string;
+}
+// TypeWriter Entry Component
 interface TypewriterEntryProps {
     word: string;
     sentence: string;
     onComplete: () => void;
 }
 
-interface WordData {
-    word: string;
-    sentence: string;
-}
-
-interface WordDisplayProps {
-    maxHeight: number;
-}
-
-// Component for individual typewriter entries
-const TypewriterEntry: React.FC<TypewriterEntryProps> = ({ word, sentence, onComplete }) => {
+const TypewriterEntry = React.memo<TypewriterEntryProps>(({ word, sentence, onComplete }) => {
     const [displayText, setDisplayText] = useState('');
     const fullText = `${word}: ${sentence}`;
     const charIndex = useRef(0);
-    const typewriterSpeed = 70; // Milliseconds per character
+    const typewriterSpeed = 90;
 
     useEffect(() => {
         const typeNextChar = () => {
@@ -34,18 +29,14 @@ const TypewriterEntry: React.FC<TypewriterEntryProps> = ({ word, sentence, onCom
         };
 
         const typingInterval = setInterval(typeNextChar, typewriterSpeed);
-
         return () => clearInterval(typingInterval);
     }, [fullText, onComplete]);
 
-
     const renderColoredText = (text: string): React.ReactNode => {
-        // Split text into parts (before and after colon)
-        const parts: string[] = text.split(':');
+        const parts = text.split(':');
+
         if (parts.length === 1) {
-            // No colon in text, just color first letters of words
-            const words: string[] = text.split(' ');
-            return words.map((word, index) => (
+            return parts[0].split(' ').map((word, index) => (
                 <span key={index}>
                     {index > 0 && ' '}
                     {word && (
@@ -56,108 +47,100 @@ const TypewriterEntry: React.FC<TypewriterEntryProps> = ({ word, sentence, onCom
                     )}
                 </span>
             ));
-        } else {
-            // Text contains colon
-            return (
-                <>
-                    <span className="text-red">{parts[0]}</span>:<br />
-                    {parts[1] && (
-                        <>
-                            {/* Process text after colon for first letters */}
-                            {parts[1].split(' ').map((word, index) => (
-                                <span key={index}>
-                                    {index === 0 && ' '}
-                                    {word && (
-                                        <>
-                                            <span className="text-red">{word[0]}</span>
-                                            <span>{word.slice(1)}</span>
-                                            {index < parts[1].split(' ').length - 1 && ' '}
-                                        </>
-                                    )}
-                                </span>
-                            ))}
-                        </>
-                    )}
-                </>
-            );
         }
+
+        return (
+            <>
+                <span className="text-red">{parts[0]}</span>:<br />
+                {parts[1] && (
+                    <>
+                        {parts[1].split(' ').map((word, index) => (
+                            <span key={index}>
+                                {index === 0 && ' '}
+                                {word && (
+                                    <>
+                                        <span className="text-red">{word[0]}</span>
+                                        <span>{word.slice(1)}</span>
+                                        {index < parts[1].split(' ').length - 1 && ' '}
+                                    </>
+                                )}
+                            </span>
+                        ))}
+                    </>
+                )}
+            </>
+        );
     };
 
-    return <p>{renderColoredText(displayText)}</p>;
-};
+    return <p className="mb-4">{renderColoredText(displayText)}</p>;
+});
 
-const WordDisplay: React.FC<WordDisplayProps> = ({ maxHeight = 900 }) => {
-    const [displayedWords, setDisplayedWords] = useState<WordData[]>([]);
+TypewriterEntry.displayName = 'TypewriterEntry';
+
+// Data fetching hook
+const useWordData = () => {
+    const [isLoading, setIsLoading] = useState(true);
+    const [error, setError] = useState<Error | null>(null);
     const wordData = useRef<WordData[]>([]);
-    const displayRef = useRef<HTMLDivElement>(null);
-
-    const isTypingRef = useRef(false);
-    const shouldAddNewEntryRef = useRef(false);
-    const cleanupTimeoutRef = useRef<NodeJS.Timeout>(null);
-    const typewriterTimeoutRef = useRef<NodeJS.Timeout>(null);
-
-    const newEntryDelay: number = 1200;
-
-    useEffect(() => {
-        return () => {
-            if (cleanupTimeoutRef.current) clearTimeout(cleanupTimeoutRef.current);
-            if (typewriterTimeoutRef.current) clearTimeout(typewriterTimeoutRef.current);
-        };
-    }, []);
-
     useEffect(() => {
         const loadJSON = async () => {
             try {
                 const response = await fetch('words.json');
-                if (response.ok) {
-                    const data: WordData[] = await response.json();
-                    wordData.current = data;
-                    addEntry();
-                } else {
-                    console.error('Failed to load JSON');
-                }
+                if (!response.ok) throw new Error('Failed to load JSON');
+                const data: WordData[] = await response.json();
+                wordData.current = data;
             } catch (error) {
-                console.error('Error loading JSON:', error);
+                setError(error instanceof Error ? error : new Error('Unknown error'));
+            } finally {
+                setIsLoading(false);
             }
         };
         loadJSON();
     }, []);
 
-    // on maxHeight change 
-    useEffect(() => {
-        if (displayRef.current && maxHeight) {
-            const currentHeight = displayRef.current.getBoundingClientRect().height;
-            if (currentHeight * 2 + 24 >= maxHeight) {
-                cleanupTimeoutRef.current = setTimeout(() => {
-                    shouldAddNewEntryRef.current = true;
-                    isTypingRef.current = false;
-                    setDisplayedWords([]);
-                }, newEntryDelay);
-            }
-        }
-    }, [maxHeight]);
+    return { wordData, isLoading, error };
+};
 
-    //  handle adding new entry after displayedWords cleared
-    useEffect(() => {
-        if (displayedWords.length === 0 && shouldAddNewEntryRef.current) {
-            shouldAddNewEntryRef.current = false;
-            isTypingRef.current = false;
-            addEntry();
-        }
-    }, [displayedWords]);
+// Display logic hook
+const useWordDisplay = (
+    wordData: React.RefObject<WordData[]>,
+    maxHeight: number,
+    displayRef: React.RefObject<HTMLDivElement | null>,
+    newEntryDelay: number
+) => {
+    const [displayedWords, setDisplayedWords] = useState<WordData[]>([]);
+    const isTypingRef = useRef(true);
+    const shouldAddNewEntryRef = useRef(true);
+    const timeoutRefs = useRef<Set<ReturnType<typeof setTimeout>>>(new Set());
 
-    const findSentenceByWord = (word: string) => {
-        const found = wordData.current.find((item) => item.word.toLowerCase() === word.toLowerCase());
-        return found ? found.sentence : '';
-    };
+    const cleanupTimeouts = useCallback(() => {
+        timeoutRefs.current.forEach(clearTimeout);
+        timeoutRefs.current.clear();
+    }, []);
 
-    const addEntry = () => {
-        if (!wordData.current.length || isTypingRef.current) return;
+    const setManagedTimeout = useCallback((callback: () => void, delay: number) => {
+        const timeoutId = setTimeout(() => {
+            callback();
+            timeoutRefs.current.delete(timeoutId);
+        }, delay);
+        timeoutRefs.current.add(timeoutId);
+        return timeoutId;
+    }, []);
+
+    const findSentenceByWord = useCallback((word: string) => {
+        const found = wordData.current?.find(
+            (item) => item.word.toLowerCase() === word.toLowerCase()
+        );
+        return found?.sentence || '';
+    }, [wordData]);
+
+    const addEntry = useCallback(() => {
+        if (!wordData.current?.length || isTypingRef.current) return;
+
         const currentHeight = displayRef.current?.getBoundingClientRect().height || 0;
-        // console.log(currentHeight * 2 + 24 + " " + maxHeight)
 
         if (currentHeight * 2 + 24 >= maxHeight) {
-            cleanupTimeoutRef.current = setTimeout(() => {
+            setManagedTimeout(() => {
                 shouldAddNewEntryRef.current = true;
                 isTypingRef.current = false;
                 setDisplayedWords([]);
@@ -167,34 +150,84 @@ const WordDisplay: React.FC<WordDisplayProps> = ({ maxHeight = 900 }) => {
 
         isTypingRef.current = true;
         const randomWord = wordData.current[Math.floor(Math.random() * wordData.current.length)].word;
-        const capWord = randomWord.slice(0, 1).toUpperCase() + randomWord.slice(1);
-        const newWordData = { word: capWord, sentence: findSentenceByWord(randomWord) };
-        setDisplayedWords((prevWords) => [...prevWords, newWordData]);
-    };
+        const capWord = randomWord.charAt(0).toUpperCase() + randomWord.slice(1);
 
-    const handleTypewriterComplete = () => {
+        setDisplayedWords(prev => [...prev, {
+            word: capWord,
+            sentence: findSentenceByWord(randomWord)
+        }]);
+    }, [maxHeight, findSentenceByWord, newEntryDelay, displayRef, wordData, setManagedTimeout]);
+
+    const handleTypewriterComplete = useCallback(() => {
         isTypingRef.current = false;
-        typewriterTimeoutRef.current = setTimeout(() => {
+        setManagedTimeout(addEntry, newEntryDelay);
+    }, [addEntry, newEntryDelay, setManagedTimeout]);
+
+    useEffect(() => {
+        if (!displayRef.current || maxHeight <= 0) return;
+
+        const currentHeight = displayRef.current.getBoundingClientRect().height;
+
+        if (currentHeight * 2 + 24 >= maxHeight) {
+            setManagedTimeout(() => {
+                shouldAddNewEntryRef.current = true;
+                isTypingRef.current = false;
+                setDisplayedWords([]);
+            }, newEntryDelay);
+        } else if (displayedWords.length === 0 && shouldAddNewEntryRef.current) {
+            shouldAddNewEntryRef.current = false;
+            isTypingRef.current = false;
             addEntry();
-        }, newEntryDelay);
+        }
+    });
+
+    useEffect(() => cleanupTimeouts, [cleanupTimeouts]);
+
+    return {
+        displayedWords,
+        handleTypewriterComplete
     };
+};
+
+// Main component
+interface WordDisplayProps {
+    maxHeight?: number;
+}
+
+const WordDisplay: React.FC<WordDisplayProps> = ({ maxHeight = 900 }) => {
+    const displayRef = useRef<HTMLDivElement>(null);
+    const { wordData, isLoading, error } = useWordData();
+    const { displayedWords, handleTypewriterComplete } = useWordDisplay(
+        wordData,
+        maxHeight,
+        displayRef,
+        2000
+    );
+
+    if (isLoading) return <div>Loading...</div>;
+    if (error) return <div>Error: {error.message}</div>;
 
     return (
-        <div>
-            <div id="display" ref={displayRef} style={{ position: 'relative', height: 'fit-content' }}>
-                {displayedWords.map((entry, index) => {
-                    return (
-                        <TypewriterEntry
-                            key={index}
-                            word={entry.word}
-                            sentence={entry.sentence}
-                            onComplete={index === displayedWords.length - 1 ? handleTypewriterComplete : () => { }}
-                        />
-                    )
-                })}
+        <div className="w-full">
+            <div
+                ref={displayRef}
+                className="relative h-fit"
+            >
+                {displayedWords.map((entry, index) => (
+                    <TypewriterEntry
+                        key={`${entry.word}-${index}`}
+                        word={entry.word}
+                        sentence={entry.sentence}
+                        onComplete={
+                            index === displayedWords.length - 1
+                                ? handleTypewriterComplete
+                                : () => { }
+                        }
+                    />
+                ))}
             </div>
         </div>
     );
 };
 
-export default WordDisplay;
+export default React.memo(WordDisplay);
