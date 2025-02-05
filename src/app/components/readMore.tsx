@@ -29,22 +29,24 @@ export default function Info() {
                 <p>In Lecsicon, the resulting sentences offer a broader context for the original words. Many of the sentences perform similarly to Chomsky&apos;s “colorless green ideas sleep furiously,” but others, such as “Music: Many unexpected sounds indicate creativity” and “Date: Dinner and theater experience,” seem to flesh out how the units of meaning (letter, word, sentence, paragraph) feed into each other and meaning bleeds through the edges–the fractal character of the English language.
                     Large Language model capture words based on their interrelations through computation processes, like a ghost hunting through a latent vector space. In such a space, words only exist in their associations with other words, sentences emerging from context.        <br /> <br />
                 </p><br />
-                <h4>Top Common Words in the Acrostics</h4>
-                <p>The generated content was then passed through a series of text analysis. The dataset contains 24,393 sentences/200,049 words and among which, these are GPT&apos;s favorite words:</p>
+                <h4>Top Common Words</h4>
+                <p>The generated content was then passed through a series of text analysis. The dataset contains 24,393 sentences/200,049 words and among which, these are GPT&apos;s favorite words in our acrostics game:</p>
             </div>
             <Image className="about-img" src='/wordcount.svg' alt="" loading="lazy" width={1200} height={1000} />
 
             <div className='about-content'>
                 The most common word in Lecsicon, &quot;in&quot;, ranks the 6th in the most common words in American English <small>[<a href="https://en.wikipedia.org/wiki/Wikipedia:Language_learning_centre/5000_most_common_words" target="_blank">source</a>]</small>,
-                while the 2nd and 3rd common word in Lecsicon, &quot;often&quot; and &quot;every&quot;, ranks #271 and #170 respectively. GPT&apos;s 4th favorite word &quot;cats&quot; (or &quot;cat&quot;) does not even enter the ranking above. Truely speaks about our cat-rich internet culture, huh?<br /><br />
+                while the 2nd and 3rd most common word in Lecsicon, &quot;often&quot; and &quot;every&quot;, ranks #271 and #170 respectively. The 4th most common word, &quot;cats&quot; (or &quot;cat&quot;) does not even enter the ranking above. Truly speaks about our cat-rich internet culture, huh?<br /><br />
                 <br />
-                <h4>The Word Tree</h4>
-                <p>Invented by Martin Wattenberg and Fernanda Viégas in 2007, the Word Tree visualization technique is a visual search tool for unstructured text.
-                    It lets you pick a word or phrase and shows you all the different contexts in which it appears. The contexts are arranged in a tree-like branching structure to reveal recurrent themes and phrases.
-                </p><br />
-                <p>
-                    Below, you can explore how the integrity of 24,393 entries unfolds in a tree-structure.
-                </p>
+
+                <div className="word-tree-text"> <h4>The Word Tree</h4>
+                    <p>Invented by Martin Wattenberg and Fernanda Viégas in 2007, the Word Tree visualization technique is a visual search tool for unstructured text.
+                        It lets you pick a word or phrase and shows you all the different contexts in which it appears. The contexts are arranged in a tree-like branching structure to reveal recurrent themes and phrases.
+                    </p><br />
+                    <p>
+                        Below, you can explore how the integrity of 24,393 entries in Lecsicon unfolds in a tree-structure.
+                    </p>
+                </div>
             </div>
             <iframe className="word-tree" loading="lazy" src='https://www.jasondavies.com/wordtree/?source=f3cd708f2a0755c08985e03844238070&prefix=every' ></iframe>
 

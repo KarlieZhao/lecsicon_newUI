@@ -166,6 +166,10 @@ button:focus-visible {
   background-color: #e2e2e2;
 }
 
+.bottom-box:hover {
+  background-color: #4e4fa422;
+}
+
 .right-box {
   border-right: 2px solid #1E20A5;
 }
@@ -430,10 +434,6 @@ button:disabled {
   margin-top: 5vh;
 }
 
-.about-img {
-  width: 60vw;
-}
-
 .word-tree {
   overflow-x: hidden;
   margin-left: auto;
@@ -525,11 +525,13 @@ button:disabled {
   }
 
   .about {
-    width: 88vw;
+    width: 90vw;
     position: relative;
-    padding-bottom: 3rem;
+    padding-bottom: 0rem;
     margin-top: 3rem;
-    top: 0
+    top: 0;
+    height: max-content;
+    overflow: hidden;
   }
 
   .sticky-section {
@@ -570,6 +572,7 @@ button:disabled {
     width: 88vw;
     left: 0;
     margin: 1.5rem;
+    margin-top: 0rem;
     height: auto;
     display: flex;
     justify-content: center;
@@ -583,7 +586,15 @@ button:disabled {
     min-width: 200px;
   }
 
-  .word-tree {
+  .word-tree,
+  .word-tree-text {
+    display: none;
     visibility: hidden;
   }
+
+  .about-content,
+  .about-img {
+    width: 90vw;
+  }
+
 }

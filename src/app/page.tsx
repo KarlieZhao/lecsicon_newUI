@@ -1,6 +1,5 @@
 "use client"
 import { useRef, useEffect, useState } from 'react'
-import { isMobile } from 'react-device-detect';
 import banner from '../../public/banner.png'
 import './globals.css'
 import GeneratorSection from './components/generator'
@@ -81,8 +80,8 @@ export default function Home() {
             </span> </div>
         </div>
 
-        <div className='top-box'><span style={{ cursor: "pointer" }}>Lecsicon by ¡wénrán zhào!</span></div>
-        <div className='bottom-box'>
+        <div className='top-box'>Lecsicon by ¡wénrán zhào!</div>
+        <div className='bottom-box' style={{ cursor: "pointer" }} onClick={() => { return readMore === "Back" ? closeReadMore() : openReadMore() }}>
           <div className='bottom-text'>Lecsicon is a growing collection of over 24,000 acrostic lines. </div>
           <div className='read-more'
             onClick={() => { return readMore === "Back" ? closeReadMore() : openReadMore() }}>{readMore}</div>
@@ -90,7 +89,7 @@ export default function Home() {
         <div className='left-box'></div>
         <div className='right-box' onClick={() => {
           handlePromptnCode();
-        }}><div className={`${isMobile ? "invisible" : "visible"}`}>Prompt & Code</div></div>
+        }}><div className={`${windowWidth < 700 ? "invisible" : "visible"}`}>Prompt & Code</div></div>
       </div >
 
       <div className='collection' ref={collectionRef}>
