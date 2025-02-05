@@ -7,6 +7,7 @@ import WordDisplay from './components/wordDisplay'
 import Image from 'next/image'
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import Info from './components/readMore';
+
 export default function Home() {
   const bannerRef = useRef<HTMLImageElement>(null);
   const collectionRef = useRef<HTMLDivElement>(null);
