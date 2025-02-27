@@ -349,7 +349,7 @@ button:active {
 }
 
 .gen-bookmark>div {
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   height: inherit;
   /* height: calc(100vh - 3.6rem); */
   margin: 0;
