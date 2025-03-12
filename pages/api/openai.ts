@@ -21,7 +21,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const genPrompt = `Make an acrostic sentence for "${inputValue}".`;
 
     const response = await openai.chat.completions.create({
-      model: 'gpt-4o-mini', 
+      model: 'gpt-4o', 
       messages: [
         { role: 'system', content: `I will give you a word. Write a sentence in which the first letter of each word sequentially spells out my word, like an acrostic sentence.
 Your sentence should not contain my word. 

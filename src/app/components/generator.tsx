@@ -80,8 +80,6 @@ export default function GeneratorSection() {
             setUserPrompt('"' + inputValue + '"' + " is not a valid word. Please type a word with no numbers, spaces, or punctuation.");
         }
         setSendRequstFlag(false);
-
-
     }
 
     const renderTokens = (entry: TokenizedWordData, token: string, index: number) => {
@@ -107,7 +105,7 @@ export default function GeneratorSection() {
         <div ref={genContainerRef}>
             <section className="sticky-section">
                 <div>
-                    <h3>Acrostics Playground <span className="small">Running on GPT 4o-mini.</span></h3>
+                    <h3>Acrostics Playground <span className="small">Running on GPT 4o.</span></h3>
                     <small> Type or click on a word in the section below to generate. </small>
                 </div>
                 <input name="myInput" className="word-input"
